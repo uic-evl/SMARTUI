@@ -1,0 +1,30 @@
+@media screen and (min-width: 600px) {
+
+  body{
+    background: #ECE9E6;
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+    align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.title{
+  padding: 0em;
+}
+.left{
+  float: left;
+  width: 50%;
+
+}
+.treatmentButton{
+  margin-top: 5%;
+  border-radius: 0px;
+  /* margin-bottom: 0px; */
+}
+.cancerButton{
+  border-radius: 0px;
+}
+.demoButton{
+  border-radius: 0px;
+}
+}

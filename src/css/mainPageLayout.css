@@ -1,0 +1,14 @@
+*{
+  box-sizing: border-box;
+}
+.nomogramControls{
+  display: block;
+  width: 20%;
+  float:left;
+  height: 50%;
+}
+.nomogram{
+  display: block;
+  width:78%;
+  float: right;
+}

@@ -1,0 +1,119 @@
+@media screen and (min-width: 768px) {
+  html{
+    min-height: 100%;
+  }
+  body{
+    background: #ECE9E6;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+    align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height:100%;
+  }
+  .title{
+  text-align: center;
+  padding: 0em;
+  font-weight: bold;
+  }
+
+  .demoButton{
+    /* color: white; */
+    background:  #f0027f;
+    /* width: 90%;
+    height: 40px;
+    border: 1px solid #f0027f;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 30px;
+    border-radius: 50px; */
+  }
+  .cancerButton{
+    /* color: white; */
+    background:  #691887;
+
+  }
+
+  .treatmentButton{
+    /* color: white; */
+    background:  #163f7f;
+     margin-top: 25px;
+
+    /* width: 200px;
+    height: 40px;
+    border: 1px solid #163f7f;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 30px;
+    border-radius: 50px; */
+  }
+  #demographics{
+    text-align: center;
+  }
+  #treatment label{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column: 1/ span 2;
+    font-weight: bold;
+    font-size: 10px;
+  }
+  #treatment{
+      border: 2px solid #ffffff;
+    background: #ffffff;
+    padding: 3%;
+    box-shadow: 0 0 20px rgba(72, 94, 116, 0.7);
+  }
+  #treatment input{
+    border-radius: 50px;
+    border: 1px solid grey;
+    /* margin-left: 1em; */
+  }
+  #treatment input:hover{
+    border: 1px solid blue;
+  }
+.left{
+  display: inline-block;
+  width:100%;
+}
+
+.right{
+  display:inline-block;
+  width:100%;
+}
+#nomogramOptions{
+  height: 150px;
+}
+#nomogramOptions >*{
+  margin-left: 15px;
+  font-size: 10px;
+}
+
+#settingsButton{
+  margin-left: 120px;
+  float: center;
+}
+#kaplanMeier{
+  margin-top: 20px;
+}
+h5{
+  text-align: center;
+}
+#nomogramType{
+  margin-left: 110px;
+  margin-right: 150px;
+}
+#cohortAnalysis{
+  margin-left: 30px;
+}
+table, th, td {
+    border: 1px solid black;
+}
+.fa-wrench{
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 1px;
+}
+.fa-xs{
+    font-size: 0.75em;
+}
+}

@@ -1,0 +1,645 @@
+Dummy ID,Age at Diagnosis (Calculated),Pathological Grade,Gender,Race,Therapeutic combination,Tm Laterality (R/L),Tumor subsite (BOT/Tonsil/Soft Palate/Pharyngeal wall/GPS/NOS),Affected Lymph node cleaned,HPV/P16 status,Smoking status at Diagnosis (Never/Former/Current),Smoking status (Packs/Year),AJCC 7th edition,AJCC 8th edition,N-category,T-category,Therapeutic combination,Treatment duration (Days),Total dose,Total fractions,Dose/fraction (Gy),Neck Dissection after IMRT (Y / levels),Neck boost (Y/N),Site,ecog,Local_Therapy,OS,Censor
+1,57.019444444444396,III,Male,White/Caucasion,CC,R,Tonsil,"R2, R3",Positive,Current,30,IV,II,N2,T1,CC,42.0,66.0,30,2.2,N,N,supraglottic,0,LP/RT alone,112.9,0.0
+10,56.336111111111094,II,Male,White/Caucasion,CC,R,NOS,R3,Positive,Never,0,III,II,N1,T3,CC,45.0,69.96,33,2.12,N,N,supraglottic,0,PLRT,24.1,0.0
+100,63.6,II,Male,White/Caucasion,IC+CC,R,BOT,"R2, R3",Positive,Formar,25,IV,III,N2,T4,IC+CC,48.0,70.0,33,2.12121212121212,N,N,supraglottic,3,LP/RT alone,3.566666667,0.0
+10001,54.394444444444396,II,Male,White/Caucasion,Radiation alone,L,Tonsil,L2,Unknown,Current,30,II,NaN,N0,T2,Radiation alone,43.0,72.0,30,2.4,Y,N,supraglottic,1,LP/RT alone,226.3,1.0
+10002,52.811111111111096,II,Male,White/Caucasion,Radiation alone,R,Tonsil,NaN,Unknown,Never,0,IV,NaN,N2,T2,Radiation alone,38.0,72.0,40,1.8,N,Y,supraglottic,0,PLRT,9.6,0.0
+10003,55.0583333333333,III,Male,White/Caucasion,Radiation alone,L,Tonsil,"L2, L3",Unknown,Formar,5,IV,NaN,N2,T2,Radiation alone,43.0,70.5,39,1.80769230769231,"Y (L2, L3, L4)",Y,supraglottic,0,LP/RT alone,25.26666667,0.0
+10004,80.8,II,Female,White/Caucasion,Radiation alone,L,Soft palate,L2,Unknown,Never,0,IV,NaN,N2,T3,Radiation alone,38.0,66.0,30,2.2,N,Y,supraglottic,2,LP/RT alone,9.5,0.0
+10005,60.0444444444444,III,Male,White/Caucasion,Radiation alone,L,Tonsil,L2,Unknown,Formar,NaN,IV,NaN,N2,T2,Radiation alone,39.0,72.0,40,1.8,N,Y,supraglottic,1,LP/RT alone,15.03333333,0.0
+10006,64.1027777777778,III,Male,White/Caucasion,Radiation alone,R,BOT,"R2, R3",Unknown,Formar,26,IV,NaN,N2,T1,Radiation alone,41.0,66.0,30,2.2,N,N,supraglottic,1,LP/chemoRT,4.5,0.0
+10007,42.9,III,Male,White/Caucasion,Radiation alone,L,BOT,L2,Unknown,Never,0,IV,NaN,N2,T2,Radiation alone,35.0,72.0,40,1.8,N,N,supraglottic,1,LP/chemoRT,52.73333333,1.0
+10008,56.502777777777794,NaN,Male,White/Caucasion,Radiation alone,R,Tonsil,R2,Unknown,Current,66,IV,NaN,N2,T2,Radiation alone,47.0,66.0,30,2.2,N,Y,glottic,2,LP/chemoRT,4.666666667,0.0
+10009,55.4472222222222,III,Female,White/Caucasion,Radiation alone,R,Tonsil,NaN,Unknown,Formar,15,II,NaN,N0,T2,Radiation alone,39.0,66.0,30,2.2,N,N,transglottic,1,PLRT,4.833333333,0.0
+10010,73.05,III,Male,White/Caucasion,Radiation alone,Bilateral,NOS,NaN,Unknown,Formar,28,II,NaN,N0,T2,Radiation alone,40.0,66.0,30,2.2,N,N,glottic,0,LP/RT alone,16.13333333,0.0
+10011,49.3027777777778,II,Male,White/Caucasion,Radiation alone,L,Tonsil,"L2, L3",Unknown,Never,0,III,NaN,N1,T2,Radiation alone,38.0,66.0,30,2.2,N,Y,supraglottic,0,LP/chemoRT,57.7,0.0
+10012,55.40277777777779,NaN,Female,White/Caucasion,Radiation alone,L,Tonsil,L2,Unknown,Never,0,III,NaN,N1,T2,Radiation alone,40.0,66.0,30,2.2,N,N,transglottic,0,PLRT,12.96666667,0.0
+10013,50.8888888888889,II,Male,White/Caucasion,Radiation alone,R,BOT,"R2, L1B, L2",Unknown,Never,0,IV,NaN,N2,T3,Radiation alone,38.0,70.0,33,2.12121212121212,N,Y,glottic,1,LP/chemoRT,10.06666667,1.0
+10014,50.9833333333333,NaN,Male,White/Caucasion,IC+CC,L,Tonsil,"L RPLN, L2, L3",Unknown,Never,0,IV,NaN,N2,T2,IC+CC,38.0,66.0,30,2.2,N,Y,transglottic,0,PLRT,5.5,1.0
+10015,64.9416666666667,III,Female,White/Caucasion,IC+CC,R,BOT,"R2, R3",Unknown,Never,0,IV,NaN,N2,T3,IC+CC,41.0,72.0,30,2.4,N,Y,supraglottic,1,LP/chemoRT,5.766666667000001,0.0
+10016,62.7,III,Male,White/Caucasion,IC+CC,L,BOT,"R2,L2",Unknown,Never,0,IV,NaN,N2,T2,IC+CC,44.0,70.0,33,2.12121212121212,N,Y,supraglottic,1,LP/RT alone,5.766666667000001,0.0
+10017,61.5888888888889,III,Female,Hispanic/Latino,IC+CC,R,BOT,"R2,L2",Unknown,Never,0,IV,NaN,N2,T2,IC+CC,41.0,70.0,33,2.12121212121212,N,Y,supraglottic,1,PLRT,5.9,0.0
+10018,58.7361111111111,III,Male,White/Caucasion,IC+CC,R,BOT,"R2/3, L2, L3, L5B",Unknown,Formar,21,IV,NaN,N2,T1,IC+CC,42.0,70.0,35,2.0,"Y (R2, R3)",Y,supraglottic,0,LP/RT alone,5.966666667,0.0
+10019,54.1583333333333,II,Male,White/Caucasion,IC+CC,L,BOT,"L2, L3, L4",Unknown,Never,0,IV,NaN,N2,T3,IC+CC,42.0,70.0,33,2.12121212121212,N,Y,supraglottic,1,LP/chemoRT,29.2,0.0
+10020,71.98888888888891,III,Male,White/Caucasion,IC+CC,L,BOT,L2,Unknown,Formar,20,IV,NaN,N2,T2,IC+CC,39.0,66.0,30,2.2,N,Y,supraglottic,0,LP/chemoRT,6.433333332999999,1.0
+10021,64.9416666666667,III,Male,White/Caucasion,IC+CC,L,Tonsil,"L RPLN, L2, R3",Unknown,Formar,75,IV,NaN,N2,T4,IC+CC,45.0,70.0,33,2.12121212121212,N,Y,glottic,0,LP/RT alone,320.6333333,0.0
+10022,73.94444444444441,NaN,Male,White/Caucasion,IC+CC,R,BOT,"R2, R3, L2, L3",Unknown,Never,0,IV,NaN,N2,T2,IC+CC,44.0,70.0,33,2.12121212121212,N,Y,supraglottic,0,PLRT,6.533333333,0.0
+10023,72.525,II,Male,White/Caucasion,IC+CC,R,Tonsil,"R1B, R2, L2",Unknown,Formar,60,IV,NaN,N2,T3,IC+CC,44.0,70.0,33,2.12121212121212,Y,Y,transglottic,0,PLRT,8.966666667,0.0
+10024,46.0305555555556,III,Male,White/Caucasion,IC+CC,R,Tonsil,"R3, R4",Unknown,Formar,10,IV,NaN,N2,T3,IC+CC,45.0,70.0,33,2.12121212121212,"Y (R3, R4)",N,supraglottic,0,LP/RT alone,151.66666669999998,0.0
+10025,47.980555555555604,II,Male,White/Caucasion,IC+CC,L,Tonsil,"L2, L3",Unknown,Never,0,IV,NaN,N2,T1,IC+CC,41.0,66.0,30,2.2,N,Y,supraglottic,0,LP/chemoRT,35.66666667,0.0
+10026,55.7166666666667,III,Male,White/Caucasion,IC+CC,L,Tonsil,"L RPLN, L2, R2, L3, R3",Unknown,Never,0,IV,NaN,N2,T3,IC+CC,44.0,70.0,33,2.12121212121212,N,Y,supraglottic,0,LP/RT alone,16.73333333,0.0
+10027,28.830555555555602,III,Male,White/Caucasion,IC+CC,L,BOT,"L2, L3, L4",Unknown,Current,10,IV,NaN,N2,T4,IC+CC,39.0,72.0,40,1.8,"Y (L2, L3)",Y,supraglottic,1,PLRT,6.8666666670000005,0.0
+10028,57.9055555555556,II,Male,White/Caucasion,IC+CC,L,Tonsil,"L2, L3",Unknown,Never,0,IV,NaN,N2,T2,IC+CC,42.0,66.0,30,2.2,N,Y,supraglottic,0,LP/chemoRT,11.26666667,0.0
+10029,55.025,II,Male,Hispanic/Latino,IC+CC,R,BOT,"R1B, R2, R3, R4, L4",Unknown,Never,0,IV,NaN,N2,T3,IC+CC,40.0,72.0,33,2.18181818181818,"Y ( R2a, R2b, R3)",Y,supraglottic,0,LP/chemoRT,192.3,1.0
+10031,56.313888888888904,III,Male,Hispanic/Latino,IC+CC,R,BOT,R2,Unknown,Never,10,IV,NaN,N2,T2,IC+CC,44.0,70.0,33,2.12121212121212,"Y (R2a, R2b, R3)",Y,supraglottic,2,LP/RT alone,7.233333332999999,0.0
+10032,NaN,NaN,Male,White/Caucasion,IC+CC,R,BOT,NaN,Unknown,Current,NaN,IV,NaN,N2,T2,IC+CC,NaN,66.0,30,2.2,N,NaN,supraglottic,0,LP/chemoRT,7.266666667000001,0.0
+10033,52.0722222222222,III,Male,White/Caucasion,IC+CC,L,Tonsil,"L1B, L2, L3, L4",Unknown,Formar,10,IV,NaN,N2,T3,IC+CC,50.0,70.0,33,2.12121212121212,N,Y,supraglottic,0,LP/chemoRT,7.8666666670000005,0.0
+10034,57.752777777777794,III,Male,White/Caucasion,IC+CC,L,Tonsil,"L2, L3",Unknown,Never,0,IV,NaN,N2,T2,IC+CC,44.0,70.0,33,2.12121212121212,N,Y,supraglottic,0,PLRT,7.9,0.0
+10035,52.563888888888904,NaN,Female,White/Caucasion,IC+CC,R,Tonsil,R RPLN,Unknown,Never,0,III,NaN,N1,T3,IC+CC,44.0,70.0,33,2.12121212121212,N,N,transglottic,1,LP/RT alone,299.8333333,1.0
+10036,55.502777777777794,III,Male,White/Caucasion,IC+CC,L,Tonsil,"L2, L3, L4",Unknown,Never,5,IV,NaN,N2,T3,IC+CC,47.0,70.0,33,2.12121212121212,N,Y,glottic,0,LP/RT alone,14.16666667,1.0
+10037,53.5916666666667,III,Male,White/Caucasion,IC+CC,R,Tonsil,"R2, R3",Unknown,Current,80,IV,NaN,N2,T3,IC+CC,45.0,70.0,33,2.12121212121212,N,Y,glottic,0,LP/chemoRT,225.2,0.0
+10038,66.6305555555556,III,Male,White/Caucasion,IC+CC,L,BOT,"L2, L3, L4, L5B, R3, R4",Unknown,Formar,105,IV,NaN,N2,T4,IC+CC,45.0,70.0,33,2.12121212121212,"Y (L2, L3, L4)",N,supraglottic,2,LP/chemoRT,8.166666667000001,0.0
+10039,51.4833333333333,III,Male,White/Caucasion,IC+CC,L,BOT,L2,Unknown,Current,30,IV,NaN,N2,T3,IC+CC,45.0,70.0,33,2.12121212121212,N,N,glottic,0,LP/chemoRT,141.7333333,0.0
+10040,52.40277777777779,II,Male,White/Caucasion,IC+CC,R,Tonsil,R2,Unknown,Never,0,IV,NaN,N2,T3,IC+CC,38.0,66.0,30,2.2,N,Y,supraglottic,0,LP/chemoRT,32.56666667,0.0
+10041,60.8583333333333,III,Male,White/Caucasion,IC+CC,L,BOT,L2,Unknown,Never,0,IV,NaN,N2,T2,IC+CC,37.0,66.0,30,2.2,N,Y,glottic,0,LP/chemoRT,23.53333333,0.0
+10042,65.6416666666667,I,Male,White/Caucasion,IC+CC,L,Tonsil,"L RPLN, L1A, L1B, L2",Unknown,Current,20,IV,NaN,N1,T4,IC+CC,44.0,70.0,33,2.12121212121212,N,Y,supraglottic,0,PLRT,8.633333333,0.0
+10043,58.3444444444444,III,Male,White/Caucasion,IC+CC,R,BOT,"L2, R2",Unknown,Never,0,IV,NaN,N2,T2,IC+CC,45.0,70.0,33,2.12121212121212,N,Y,supraglottic,1,LP/RT alone,18.53333333,0.0
+10044,59.436111111111096,NaN,Male,White/Caucasion,IC+CC,R,Tonsil,"R RPLN, R2, R3",Unknown,Formar,40,IV,NaN,N2,T4,IC+CC,44.0,70.0,33,2.12121212121212,N,Y,supraglottic,1,PLRT,12.03333333,0.0
+10045,41.3833333333333,NaN,Male,White/Caucasion,IC+CC,R,BOT,"R2, R3, R4",Unknown,Never,0,IV,NaN,N2,T2,IC+CC,44.0,70.0,33,2.12121212121212,N,Y,transglottic,1,LP/chemoRT,11.33333333,0.0
+10046,56.3805555555556,II,Male,White/Caucasion,IC+CC,R,BOT,"R2, R3, R4, L2",Unknown,Never,0,IV,NaN,N3,T3,IC+CC,44.0,70.0,33,2.12121212121212,N,N,supraglottic,0,LP/chemoRT,9.133333333,0.0
+10047,79.48888888888891,III,Male,White/Caucasion,IC+CC,R,BOT,"R2, R3",Unknown,Never,0,IV,NaN,N2,T1,IC+CC,44.0,70.0,33,2.12121212121212,N,N,glottic,0,LP/chemoRT,123.83333329999999,0.0
+10048,45.741666666666696,II,Male,White/Caucasion,IC+CC,R,Tonsil,"R RPLN, R2, L2",Unknown,Current,20,IV,NaN,N2,T1,IC+CC,46.0,70.0,35,2.0,N,Y,supraglottic,1,LP/chemoRT,196.06666669999998,1.0
+10049,46.625,II,Male,White/Caucasion,IC+CC,L,BOT,"L2, L3, L4, R2",Unknown,Current,20,IV,NaN,N2,T4,IC+CC,44.0,70.0,33,2.12121212121212,"Y (L1a, L1b, L2, L3)",Y,supraglottic,1,PLRT,9.8,0.0
+10050,70.6555555555556,III,Male,White/Caucasion,IC+CC,L,BOT,"L1B, L2, L3, R2, R3",Unknown,Formar,50,IV,NaN,N2,T4,IC+CC,21.0,70.0,33,2.12121212121212,"Y (L1, L2a, L2b, L3, L4)",N,transglottic,1,LP/chemoRT,29.06666667,0.0
+10051,53.038888888888906,III,Male,White/Caucasion,IC+CC,R,BOT,"R2, L2",Unknown,Never,0,IV,NaN,N2,T2,IC+CC,41.0,66.0,30,2.2,N,Y,supraglottic,1,LP/RT alone,10.1,0.0
+10052,60.5944444444444,III,Male,White/Caucasion,IC+CC,L,Tonsil,"L2, L3",Unknown,Formar,30,IV,NaN,N3,T3,IC+CC,44.0,70.0,33,2.12121212121212,N,Y,supraglottic,0,LP/RT alone,10.2,0.0
+10053,48.122222222222206,NaN,Male,African American/Black,IC+CC,R,BOT,"R2, L2, R3",Unknown,Current,40,IV,NaN,N2,T4,IC+CC,48.0,70.0,35,2.0,N,Y,supraglottic,1,LP/RT alone,10.23333333,0.0
+10054,72.85,III,Male,White/Caucasion,IC+CC,L,BOT,L2,Unknown,Never,0,IV,NaN,N2,T3,IC+CC,37.0,68.1,30,2.27,"Y (L2, L3)",Y,supraglottic,0,PLRT,10.3,0.0
+10055,65.0194444444444,NaN,Male,White/Caucasion,IC+CC,L,BOT,"R2, L2, R5B",Unknown,Formar,NaN,IV,NaN,N2,T2,IC+CC,48.0,69.96,33,2.12,N,N,transglottic,1,PLRT,10.33333333,0.0
+10056,48.5305555555556,II,Female,White/Caucasion,IC+CC,R,BOT,R2,Unknown,Formar,29,III,NaN,N1,T3,IC+CC,45.0,70.0,35,2.0,N,N,supraglottic,0,LP/RT alone,15.93333333,0.0
+10057,61.752777777777794,III,Male,White/Caucasion,IC+CC,R,BOT,"R RPLN,R2, L2, R3",Unknown,Never,40,IV,NaN,N2,T3,IC+CC,44.0,70.0,33,2.12121212121212,N,N,supraglottic,1,LP/RT alone,16.53333333,0.0
+10058,44.15277777777779,NaN,Male,White/Caucasion,IC+CC,R,Tonsil,"R2, R3",Unknown,Never,0,IV,NaN,N3,T3,IC+CC,47.0,70.0,33,2.12121212121212,N,Y,glottic,2,LP/RT alone,21.0,0.0
+10059,59.397222222222204,II,Male,White/Caucasion,IC+CC,R,Tonsil,"R2, R3, R4, L2, L3, R5A",Unknown,Formar,50,IV,NaN,N2,T2,IC+CC,44.0,69.96,33,2.12,N,Y,supraglottic,0,PLRT,10.73333333,0.0
+10060,56.55,III,Male,White/Caucasion,IC+CC,R,Tonsil,"R1B, R2, L2",Unknown,Current,35,IV,NaN,N2,T4,IC+CC,43.0,72.0,40,1.8,N,Y,supraglottic,0,PLRT,15.16666667,0.0
+10061,55.9583333333333,III,Male,White/Caucasion,IC+Radiation alone,R,Tonsil,"R2, R3",Unknown,Never,0,IV,NaN,N2,T2,IC+Radiation alone,44.0,66.0,33,2.0,N,Y,glottic,0,LP/chemoRT,23.6,0.0
+10062,56.7361111111111,III,Male,White/Caucasion,IC+Radiation alone,R,BOT,"R2, R3",Unknown,Never,0,IV,NaN,N2,T1,IC+Radiation alone,41.0,66.0,30,2.2,"Y (R2a, R2b)",Y,glottic,1,LP/chemoRT,11.0,0.0
+10063,53.586111111111094,III,Male,African American/Black,IC+Radiation alone,R,Tonsil,R2,Unknown,Formar,29,IV,NaN,N2,T2,IC+Radiation alone,41.0,66.0,30,2.2,N,Y,transglottic,1,LP/RT alone,12.5,0.0
+10064,55.2138888888889,II,Male,White/Caucasion,IC+Radiation alone,R,BOT,R2,Unknown,Formar,8,IV,NaN,N2,T2,IC+Radiation alone,43.0,66.0,30,2.2,N,Y,transglottic,1,LP/chemoRT,59.93333333,0.0
+10065,51.5416666666667,II,Male,White/Caucasion,IC+Radiation alone,L,BOT,L2,Unknown,Never,0,IV,NaN,N2,T1,IC+Radiation alone,37.0,66.0,30,2.2,N,Y,supraglottic,3,LP/chemoRT,11.2,0.0
+10066,42.6722222222222,III,Male,Hispanic/Latino,IC+Radiation alone,R,BOT,"R2, L2",Unknown,Never,0,IV,NaN,N2,T2,IC+Radiation alone,38.0,66.0,30,2.2,N,Y,supraglottic,0,LP/chemoRT,173.8,0.0
+10067,46.4888888888889,III,Male,White/Caucasion,IC+Radiation alone,R,BOT,R2,Unknown,Never,0,IV,NaN,N2,T2,IC+Radiation alone,44.0,70.0,33,2.12121212121212,N,N,supraglottic,1,LP/chemoRT,16.03333333,0.0
+10068,59.4694444444444,NaN,Male,White/Caucasion,IC+Radiation alone,L,BOT,"L2, L3, L4",Unknown,Formar,13,IV,NaN,N2,T2,IC+Radiation alone,44.0,70.0,33,2.12121212121212,"Y (L2, L3)",Y,transglottic,0,PLRT,15.06666667,0.0
+10069,60.525,NaN,Male,White/Caucasion,IC+Radiation alone,L,Tonsil,NaN,Unknown,Formar,30,III,NaN,N0,T3,IC+Radiation alone,44.0,70.0,33,2.12121212121212,N,N,supraglottic,1,PLRT,12.16666667,0.0
+10070,63.9,III,Male,White/Caucasion,IC+Radiation alone,L,Tonsil,"L2, L3",Unknown,Never,0,IV,NaN,N2,T1,IC+Radiation alone,43.0,66.0,30,2.2,N,Y,supraglottic,0,LP/RT alone,272.3,1.0
+10071,61.7055555555556,III,Male,White/Caucasion,IC+Radiation alone,L,BOT,"L2, L3",Unknown,Never,0,IV,NaN,N2,T1,IC+Radiation alone,39.0,66.0,30,2.2,"Y (L2, L3)",Y,supraglottic,0,PLRT,12.3,0.0
+10072,47.2611111111111,II,Male,White/Caucasion,IC+Radiation alone,L,BOT,"L2, L3, L4",Unknown,Never,0,IV,NaN,N2,T1,IC+Radiation alone,39.0,66.0,30,2.2,N,Y,supraglottic,1,LP/RT alone,12.5,0.0
+10073,51.4055555555556,NaN,Male,White/Caucasion,IC+Radiation alone,R,Tonsil,R2,Unknown,Never,0,IV,NaN,N2,T2,IC+Radiation alone,42.0,66.0,30,2.2,Y (R2),Y,supraglottic,1,LP/chemoRT,12.56666667,0.0
+10074,48.1388888888889,II,Male,White/Caucasion,IC+Radiation alone,R,Tonsil,"R2, L2, R3, L3",Unknown,Current,25,IV,NaN,N2,T2,IC+Radiation alone,45.0,70.0,33,2.12121212121212,N,Y,supraglottic,1,LP/chemoRT,17.7,0.0
+10075,36.408333333333296,NaN,Female,White/Caucasion,IC+Radiation alone,R,Tonsil,"R1B, R2",Unknown,Formar,8,IV,NaN,N2,T2,IC+Radiation alone,38.0,72.0,40,1.8,N,Y,supraglottic,0,PLRT,20.56666667,0.0
+10076,NaN,NaN,Male,White/Caucasion,IC+Radiation alone,L,Tonsil,NaN,Unknown,Current,NaN,IV,NaN,N2,T2,IC+Radiation alone,NaN,72.0,40,1.8,N,NaN,transglottic,0,LP/chemoRT,12.7,0.0
+10077,59.397222222222204,III,Female,White/Caucasion,IC+Radiation alone,R,Tonsil,"R2, R3",Unknown,Never,0,IV,NaN,N2,T2,IC+Radiation alone,41.0,66.0,30,2.2,N,Y,supraglottic,0,LP/RT alone,59.3,1.0
+10078,52.6305555555556,III,Male,White/Caucasion,IC+Radiation alone,L,Tonsil,"L2, L3",Unknown,Current,30,IV,NaN,N2,T1,IC+Radiation alone,42.0,66.0,30,2.2,N,Y,transglottic,0,LP/chemoRT,13.63333333,1.0
+10079,53.8027777777778,NaN,Male,White/Caucasion,IC+Radiation alone,L,BOT,"L2, L3, R2, R3",Unknown,Never,0,IV,NaN,N2,T2,IC+Radiation alone,38.0,66.0,30,2.2,N,Y,supraglottic,0,PLRT,28.6,0.0
+10080,51.1138888888889,NaN,Male,White/Caucasion,IC+Radiation alone,R,Tonsil,"R2, L2",Unknown,Current,50,IV,NaN,N2,T3,IC+Radiation alone,36.0,72.0,30,2.4,N,N,supraglottic,1,LP/RT alone,14.2,0.0
+10081,75.8388888888889,III,Male,White/Caucasion,IC+Radiation alone,R,BOT,"R2, R3, R4",Unknown,Formar,90,IV,NaN,N2,T2,IC+Radiation alone,44.0,69.0,33,2.09090909090909,N,Y,supraglottic,2,LP/chemoRT,17.86666667,0.0
+10082,46.7916666666667,NaN,Male,White/Caucasion,IC+Radiation alone,L,BOT,"L2, L3, R2, R3",Unknown,Never,0,IV,NaN,N2,T1,IC+Radiation alone,40.0,66.0,30,2.2,N,Y,supraglottic,0,LP/chemoRT,14.96666667,0.0
+10083,58.394444444444396,NaN,Male,White/Caucasion,IC+Radiation alone,Bilateral,BOT,"L2, L3, R2, R3",Unknown,Never,0,IV,NaN,N2,T2,IC+Radiation alone,39.0,66.0,30,2.2,N,N,supraglottic,0,LP/RT alone,15.13333333,0.0
+10084,61.6416666666667,NaN,Male,White/Caucasion,IC+Radiation alone,L,Tonsil,"R2, L2, R3, L3",Unknown,Formar,54,IV,NaN,N3,T4,IC+Radiation alone,42.0,70.0,33,2.12121212121212,N,Y,supraglottic,0,LP/RT alone,15.2,0.0
+10085,52.7361111111111,NaN,Male,White/Caucasion,IC+Radiation alone,R,BOT,"R2, L2, R3, L3",Unknown,Never,0,IV,NaN,N2,T4,IC+Radiation alone,48.0,70.0,33,2.12121212121212,N,Y,glottic,0,PLRT,26.16666667,0.0
+10086,55.3583333333333,II,Male,White/Caucasion,IC+Radiation alone,L,BOT,"L2, L3, L5B",Unknown,Never,0,IV,NaN,N2,T3,IC+Radiation alone,41.0,66.0,30,2.2,N,Y,supraglottic,0,LP/RT alone,35.66666667,0.0
+10087,77.1277777777778,NaN,Male,Hispanic/Latino,IC+Radiation alone,R,Tonsil,"R2, R3, L3",Unknown,Formar,10,IV,NaN,N3,T3,IC+Radiation alone,42.0,72.0,40,1.8,N,Y,supraglottic,1,LP/RT alone,15.63333333,0.0
+10088,66.2722222222222,II,Male,White/Caucasion,IC+Radiation alone,L,BOT,"L2, L3",Unknown,Formar,5,IV,NaN,N2,T2,IC+Radiation alone,41.0,66.0,30,2.2,N,Y,glottic,1,LP/RT alone,203.0333333,0.0
+10089,67.7638888888889,III,Male,White/Caucasion,IC+Radiation alone,L,Tonsil,NaN,Unknown,Current,50,IV,NaN,N2,T3,IC+Radiation alone,41.0,66.0,30,2.2,N,N,supraglottic,0,PLRT,16.23333333,0.0
+10090,61.163888888888906,III,Female,White/Caucasion,IC+Radiation alone,L,Tonsil,"L2, R2",Unknown,Current,60,IV,NaN,N2,T2,IC+Radiation alone,38.0,66.0,30,2.2,N,Y,glottic,2,LP/RT alone,16.5,0.0
+10091,36.02777777777779,III,Male,White/Caucasion,CC,R,BOT,"R2, R3",Unknown,Never,0,IV,NaN,N2,T4,CC,24.0,70.0,33,2.12121212121212,N,Y,supraglottic,1,LP/RT alone,41.46666667,0.0
+10092,59.877777777777794,II,Male,White/Caucasion,CC,R,BOT,"R2, R3",Unknown,Never,0,IV,NaN,N2,T2,CC,41.0,70.0,35,2.0,"Y (R2, R5)",Y,glottic,0,LP/RT alone,17.16666667,0.0
+10093,57.1944444444444,III,Male,White/Caucasion,CC,R,Tonsil,"R2, R3",Unknown,Formar,25,IV,NaN,N2,T2,CC,43.0,70.0,35,2.0,N,N,supraglottic,0,LP/chemoRT,17.2,0.0
+10094,66.7166666666667,II,Male,White/Caucasion,CC,Bilateral,Soft palate,NaN,Unknown,Current,100,IV,NaN,N2,T3,CC,38.0,72.0,40,1.8,N,N,supraglottic,0,PLRT,19.9,0.0
+10095,60.3027777777778,III,Male,White/Caucasion,CC,R,BOT,"L RPLN, L3",Unknown,Never,0,IV,NaN,N2,T2,CC,46.0,69.96,33,2.12,"Y (L2, L3)",N,supraglottic,0,PLRT,17.53333333,0.0
+10096,47.4,III,Male,White/Caucasion,CC,L,Tonsil,"L2, L3",Unknown,Never,0,IV,NaN,N2,T4,CC,45.0,70.0,35,2.0,N,Y,transglottic,1,LP/chemoRT,203.16666669999998,1.0
+10097,45.855555555555604,NaN,Male,White/Caucasion,CC,L,Tonsil,"L2, L3",Unknown,Current,15,IV,NaN,N2,T2,CC,44.0,70.0,33,2.12121212121212,N,N,supraglottic,0,LP/RT alone,26.7,0.0
+10098,42.127777777777794,NaN,Male,White/Caucasion,CC,R,Tonsil,"R2, R3",Unknown,Never,0,IV,NaN,N2,T2,CC,44.0,70.0,33,2.12121212121212,N,Y,supraglottic,1,LP/RT alone,32.76666667,0.0
+10099,55.9527777777778,NaN,Male,White/Caucasion,CC,L,Tonsil,"L2, L3",Unknown,Formar,5,IV,NaN,N2,T2,CC,39.0,72.0,40,1.8,N,Y,supraglottic,1,LP/chemoRT,18.43333333,0.0
+101,55.75,III,Male,White/Caucasion,CC,L,Tonsil,"L2, L3",Positive,Formar,NaN,IV,II,N2,T1,CC,41.0,66.0,30,2.2,N,Y,glottic,0,LP/chemoRT,18.83333333,1.0
+10100,48.288888888888906,NaN,Male,White/Caucasion,CC,R,BOT,"R2, R3",Unknown,Never,0,IV,NaN,N2,T4,CC,35.0,70.0,35,2.0,N,N,supraglottic,0,PLRT,18.9,0.0
+10101,56.063888888888904,III,Female,White/Caucasion,CC,L,BOT,L2,Unknown,Never,0,IV,NaN,N2,T2,CC,44.0,70.0,33,2.12121212121212,"Y (L2, L3)",Y,supraglottic,0,LP/RT alone,19.03333333,0.0
+10102,57.7388888888889,III,Male,White/Caucasion,CC,R,BOT,"R2, R3, L3",Unknown,Never,0,IV,NaN,N2,T3,CC,41.0,72.0,33,2.18181818181818,N,Y,supraglottic,1,LP/chemoRT,24.76666667,0.0
+10103,56.4333333333333,III,Male,White/Caucasion,CC,L,BOT,L2,Unknown,Formar,30,IV,NaN,N2,T2,CC,44.0,70.0,33,2.12121212121212,N,Y,glottic,0,LP/RT alone,19.33333333,1.0
+10104,49.508333333333304,NaN,Male,White/Caucasion,CC,R,BOT,"R2, R3",Unknown,Never,0,III,NaN,N1,T3,CC,47.0,70.0,35,2.0,N,N,supraglottic,2,PLRT,19.8,0.0
+10105,45.0527777777778,NaN,Female,White/Caucasion,CC,Bilateral,NOS,NaN,Unknown,Current,30,III,NaN,N0,T3,CC,44.0,70.0,33,2.12121212121212,N,N,supraglottic,1,PLRT,20.23333333,0.0
+10106,58.1722222222222,III,Male,White/Caucasion,CC,L,BOT,"R2, L2",Unknown,Never,0,IV,NaN,N2,T4,CC,41.0,72.0,40,1.8,N,Y,supraglottic,1,LP/chemoRT,20.26666667,0.0
+10107,48.09722222222221,III,Male,Hispanic/Latino,CC,R,BOT,R2,Unknown,Never,0,IV,NaN,N2,T2,CC,41.0,66.0,33,2.0,N,Y,subglottic,0,PLRT,20.26666667,0.0
+10108,51.6777777777778,II,Female,White/Caucasion,CC,R,BOT,R2,Unknown,Current,66,III,NaN,N1,T3,CC,44.0,70.0,33,2.12121212121212,N,Y,supraglottic,1,PLRT,20.33333333,0.0
+10109,56.325,II,Male,White/Caucasion,CC,L,Tonsil,"L1B, L2, L3",Unknown,Formar,25,IV,NaN,N2,T3,CC,38.0,70.0,35,2.0,N,Y,glottic,1,LP/chemoRT,22.56666667,0.0
+10110,51.90277777777779,III,Male,White/Caucasion,CC,L,BOT,"R2, R5A, L2, L3, L5A",Unknown,Current,45,IV,NaN,N2,T2,CC,44.0,70.0,33,2.12121212121212,"Y (L2, L3)",Y,supraglottic,0,LP/RT alone,20.43333333,0.0
+10111,55.4194444444444,II,Male,White/Caucasion,CC,R,BOT,R2,Unknown,Formar,20,IV,NaN,N0,T4,CC,44.0,70.0,33,2.12121212121212,N,N,supraglottic,1,LP/chemoRT,36.73333333,0.0
+10113,66.2555555555556,III,Male,White/Caucasion,CC,R,BOT,"R2, R3, R4",Unknown,Formar,NaN,IV,NaN,N2,T2,CC,46.0,70.0,33,2.12121212121212,N,Y,supraglottic,2,LP/chemoRT,20.5,0.0
+10114,67.5472222222222,II,Male,White/Caucasion,CC,R,BOT,"R2, R3",Unknown,Formar,40,IV,NaN,N2,T3,CC,37.0,66.0,33,2.0,N,Y,supraglottic,1,PLRT,25.1,0.0
+10115,45.4861111111111,III,Male,White/Caucasion,CC,L,BOT,"L2, L3",Unknown,Never,0,IV,NaN,N2,T4,CC,51.0,70.0,37,1.8918918918918899,N,Y,supraglottic,0,PLRT,20.93333333,0.0
+10116,78.6055555555556,III,Male,White/Caucasion,CC,R,BOT,R2,Unknown,Formar,50,IV,NaN,N2,T2,CC,41.0,72.0,40,1.8,N,Y,glottic,1,LP/RT alone,79.63333333,1.0
+10117,52.3083333333333,NaN,Male,White/Caucasion,CC,L,Tonsil,"R2, R3",Unknown,Never,0,IV,NaN,N2,T2,CC,41.0,72.0,40,1.8,Y,Y,supraglottic,0,PLRT,21.7,0.0
+10118,67.825,NaN,Male,White/Caucasion,CC,L,BOT,"R2, R3",Unknown,Never,0,IV,NaN,N2,T2,CC,43.0,70.0,33,2.12121212121212,N,Y,supraglottic,0,LP/RT alone,21.96666667,0.0
+10119,55.9055555555556,II,Male,Hispanic/Latino,CC,R,Tonsil,"R2, L2",Unknown,Formar,80,IV,NaN,N2,T3,CC,42.0,70.0,35,2.0,N,Y,supraglottic,1,LP/RT alone,22.26666667,0.0
+10120,54.877777777777794,III,Male,White/Caucasion,CC,R,BOT,R3,Unknown,Formar,1,IV,NaN,N2,T2,CC,48.0,75.0,35,2.14285714285714,N,Y,supraglottic,0,LP/RT alone,22.3,0.0
+10121,59.0944444444444,NaN,Male,White/Caucasion,CC,R,BOT,R2,Unknown,Formar,5,IV,NaN,N2,T3,CC,44.0,70.0,33,2.12121212121212,N,Y,transglottic,1,LP/RT alone,57.96666667,0.0
+10123,53.2638888888889,III,Male,White/Caucasion,CC,L,BOT,L2,Unknown,Current,40,IV,NaN,N2,T2,CC,44.0,69.96,33,2.12,"Y (L2, L3)",N,supraglottic,0,LP/RT alone,10.76666667,0.0
+10124,58.502777777777794,III,Male,White/Caucasion,CC,L,Tonsil,"L2, L3",Unknown,Never,0,IV,NaN,N2,T1,CC,47.0,70.0,33,2.12121212121212,N,Y,supraglottic,0,LP/RT alone,28.73333333,0.0
+10125,68.0361111111111,II,Male,White/Caucasion,CC,L,BOT,"R2, L2",Unknown,Current,50,IV,NaN,N2,T2,CC,48.0,70.0,37,1.8918918918918899,N,N,supraglottic,0,LP/RT alone,133.9,0.0
+10126,59.5444444444444,III,Male,White/Caucasion,CC,R,BOT,"R2, L2",Unknown,Current,56,IV,NaN,N2,T1,CC,38.0,70.0,30,2.3333333333333304,N,Y,transglottic,1,LP/chemoRT,23.26666667,1.0
+10127,66.625,II,Male,White/Caucasion,CC,R,Tonsil,NaN,Unknown,Current,40,III,NaN,N0,T3,CC,42.0,70.0,30,2.3333333333333304,N,N,supraglottic,1,LP/chemoRT,24.73333333,0.0
+10128,54.175,III,Male,White/Caucasion,CC,Bilateral,BOT,"R2, R3, L2, L3, L4",Unknown,Current,20,IV,NaN,N2,T2,CC,42.0,72.0,30,2.4,"Y (L2, L3, L4)",N,supraglottic,0,LP/chemoRT,23.66666667,0.0
+10129,73.5361111111111,NaN,Male,White/Caucasion,CC,L,Tonsil,L2,Unknown,Formar,30,IV,NaN,N2,T3,CC,44.0,70.0,33,2.12121212121212,N,Y,supraglottic,0,PLRT,23.86666667,0.0
+10130,53.788888888888906,III,Male,White/Caucasion,CC,R,BOT,"R2, R3",Unknown,Never,0,IV,NaN,N2,T2,CC,43.0,66.0,33,2.0,N,Y,supraglottic,0,LP/chemoRT,24.16666667,1.0
+10131,57.2388888888889,NaN,Male,White/Caucasion,CC,R,BOT,"R1B, R2",Unknown,Never,0,IV,NaN,N2,T3,CC,44.0,70.0,33,2.12121212121212,"Y (R2, R3)",Y,supraglottic,0,LP/chemoRT,39.86666667,0.0
+10132,58.5333333333333,II,Male,White/Caucasion,CC,L,Tonsil,NaN,Unknown,Formar,1,II,NaN,N0,T2,CC,37.0,72.0,40,1.8,N,Y,supraglottic,1,LP/RT alone,24.33333333,0.0
+10133,60.9277777777778,II,Male,White/Caucasion,CC,R,Tonsil,"R2, R3, R4",Unknown,Never,0,IV,NaN,N2,T1,CC,41.0,66.0,30,2.2,Y,Y,transglottic,1,LP/chemoRT,35.83333333,0.0
+10134,54.875,III,Male,White/Caucasion,CC,R,BOT,"R2, R3",Unknown,Never,0,IV,NaN,N2,T2,CC,42.0,70.0,35,2.0,N,Y,supraglottic,0,LP/RT alone,40.83333333,0.0
+10135,71.1388888888889,II,Male,White/Caucasion,CC,R,BOT,R2,Unknown,Formar,65,IV,NaN,N2,T2,CC,44.0,70.0,33,2.12121212121212,N,Y,supraglottic,0,PLRT,25.56666667,0.0
+10136,52.372222222222206,NaN,Male,White/Caucasion,CC,L,Tonsil,NaN,Unknown,Never,0,IV,NaN,N2,T2,CC,38.0,72.0,40,1.8,N,Y,supraglottic,1,LP/RT alone,33.33333333,0.0
+10137,47.6194444444444,NaN,Female,White/Caucasion,CC,R,Tonsil,"R RPLN, R5A",Unknown,Formar,5,IV,NaN,N2,T2,CC,44.0,70.0,33,2.12121212121212,N,Y,supraglottic,1,LP/RT alone,25.9,0.0
+10138,55.9472222222222,III,Male,White/Caucasion,CC,L,BOT,"L2, L3",Unknown,Formar,30,IV,NaN,N2,T2,CC,41.0,70.0,35,2.0,N,Y,supraglottic,3,PLRT,26.6,0.0
+10139,71.30277777777779,NaN,Male,White/Caucasion,CC,Bilateral,BOT,"L2, L3",Unknown,Formar,12,IV,NaN,N2,T3,CC,43.0,70.0,30,2.3333333333333304,N,Y,transglottic,0,PLRT,26.66666667,0.0
+10140,69.6861111111111,II,Male,White/Caucasion,CC,R,Tonsil,"R RPLN, R1B",Unknown,Formar,50,IV,NaN,N2,T3,CC,41.0,70.0,35,2.0,N,Y,supraglottic,0,LP/RT alone,31.03333333,0.0
+10141,57.2638888888889,II,Male,White/Caucasion,CC,L,BOT,L2,Unknown,Formar,30,III,NaN,N1,T3,CC,44.0,70.0,33,2.12121212121212,N,Y,supraglottic,0,LP/RT alone,165.1333333,0.0
+10142,59.4055555555556,NaN,Male,White/Caucasion,CC,L,NOS,L2,Unknown,Formar,10,IV,NaN,N2,T2,CC,44.0,70.0,33,2.12121212121212,N,Y,supraglottic,0,PLRT,39.0,0.0
+10143,60.475,NaN,Male,White/Caucasion,CC,R,Tonsil,"R RPLN, R2, R3",Unknown,Never,0,IV,NaN,N2,T3,CC,44.0,70.0,33,2.12121212121212,N,Y,supraglottic,1,LP/RT alone,32.96666667,0.0
+10144,73.7694444444444,III,Male,White/Caucasion,CC,L,Tonsil,"L2, L3",Unknown,Never,0,IV,NaN,N2,T3,CC,42.0,72.0,40,1.8,N,Y,transglottic,0,PLRT,28.46666667,1.0
+10145,75.95,III,Female,White/Caucasion,CC,L,Tonsil,NaN,Unknown,Current,60,II,NaN,N0,T2,CC,38.0,72.0,40,1.8,N,N,glottic,1,LP/chemoRT,67.06666667,1.0
+10146,56.991666666666696,II,Male,White/Caucasion,CC,R,BOT,R2,Unknown,Current,40,IV,NaN,N2,T3,CC,44.0,70.0,33,2.12121212121212,N,N,supraglottic,1,LP/RT alone,28.73333333,0.0
+10147,69.6638888888889,NaN,Male,White/Caucasion,CC,R,BOT,"R2, R3",Unknown,Never,0,IV,NaN,N2,T4,CC,43.0,70.0,35,2.0,N,N,supraglottic,1,LP/RT alone,29.5,0.0
+10148,65.8083333333333,III,Male,White/Caucasion,CC,R,BOT,"R RPLN, R2",Unknown,Never,0,III,NaN,N0,T3,CC,45.0,70.0,33,2.12121212121212,N,N,supraglottic,0,PLRT,29.8,0.0
+10149,64.26111111111109,NaN,Male,White/Caucasion,CC,L,Tonsil,"L RPLN, L2",Unknown,Current,95,IV,NaN,N2,T2,CC,50.0,70.0,35,2.0,N,Y,supraglottic,0,LP/RT alone,44.93333333,0.0
+10150,68.175,III,Male,White/Caucasion,CC,L,Tonsil,"L RPLN, L2, L3, R2",Unknown,Never,0,IV,NaN,N2,T4,CC,45.0,70.0,33,2.12121212121212,"Y (L2, L3)",Y,transglottic,1,PLRT,30.6,0.0
+10151,54.6666666666667,III,Male,White/Caucasion,CC,R,BOT,"R2, R3",Unknown,Formar,18,IV,NaN,N2,T2,CC,44.0,70.0,33,2.12121212121212,"Y (L2, L3)",Y,supraglottic,0,PLRT,31.3,0.0
+10152,61.497222222222206,NaN,Male,White/Caucasion,CC,L,BOT,"R2, L2, L3",Unknown,Never,0,IV,NaN,N2,T2,CC,38.0,66.0,30,2.2,N,Y,supraglottic,1,PLRT,32.43333333,0.0
+10153,61.0805555555556,III,Male,White/Caucasion,CC,R,Tonsil,"R2, R3",Unknown,Never,0,IV,NaN,N2,T2,CC,44.0,70.0,33,2.12121212121212,"Y (L2, L3)",N,supraglottic,1,LP/chemoRT,73.33333333,0.0
+10154,72.1583333333333,II,Female,White/Caucasion,CC,L,BOT,NaN,Unknown,Current,60,III,NaN,N0,T3,CC,45.0,70.0,33,2.12121212121212,N,N,supraglottic,1,PLRT,32.6,0.0
+10155,42.8194444444444,III,Male,White/Caucasion,CC,R,BOT,R2,Unknown,Formar,1,IV,NaN,N2,T2,CC,44.0,70.0,32,2.1875,"Y (R2, R3)",Y,glottic,1,LP/RT alone,32.63333333,0.0
+10156,64.1333333333333,NaN,Male,White/Caucasion,CC,R,BOT,R2,Unknown,Never,0,IV,NaN,N2,T2,CC,44.0,70.0,33,2.12121212121212,N,N,glottic,0,LP/chemoRT,33.16666667,1.0
+10157,64.9055555555556,NaN,Female,White/Caucasion,CC,L,Tonsil,L2,Unknown,Formar,19,IV,NaN,N2,T3,CC,44.0,70.0,33,2.12121212121212,N,Y,supraglottic,1,LP/RT alone,33.33333333,0.0
+10158,74.30277777777779,III,Male,White/Caucasion,CC,L,Tonsil,L2,Unknown,Formar,40,IV,NaN,N2,T2,CC,38.0,66.0,30,2.2,N,Y,supraglottic,0,PLRT,42.16666667,0.0
+10159,55.3,NaN,Male,White/Caucasion,CC,R,Tonsil,"R2, R3",Unknown,Current,60,IV,NaN,N2,T4,CC,47.0,70.0,33,2.12121212121212,N,Y,supraglottic,1,LP/RT alone,33.53333333,0.0
+10160,47.925,NaN,Male,White/Caucasion,CC,Bilateral,BOT,"L RPLN, L2, L3",Unknown,Never,0,IV,NaN,N2,T4,CC,44.0,70.0,33,2.12121212121212,N,Y,supraglottic,1,LP/chemoRT,33.53333333,1.0
+10161,66.425,III,Male,White/Caucasion,CC,R,Tonsil,R2,Unknown,Never,0,IV,NaN,N3,T1,CC,50.0,70.0,33,2.12121212121212,N,Y,supraglottic,0,PLRT,33.73333333,0.0
+10162,46.5472222222222,NaN,Male,White/Caucasion,CC,R,BOT,"R2, R3, R4",Unknown,Never,0,IV,NaN,N2,T2,CC,44.0,70.0,33,2.12121212121212,N,N,supraglottic,0,PLRT,33.96666667,0.0
+10163,57.6944444444444,III,Male,White/Caucasion,CC,R,BOT,R2,Unknown,Never,0,IV,NaN,N2,T3,CC,48.0,70.0,33,2.12121212121212,"Y (R2, R3, R4)",Y,transglottic,0,LP/chemoRT,34.3,0.0
+10164,66.0694444444444,NaN,Female,White/Caucasion,CC,L,BOT,L2,Unknown,Never,0,IV,NaN,N2,T4,CC,34.0,70.0,33,2.12121212121212,N,Y,supraglottic,0,LP/chemoRT,35.36666667,0.0
+10165,77.5888888888889,II,Male,Hispanic/Latino,CC,R,Tonsil,NaN,Unknown,Current,100,III,NaN,N0,T3,CC,44.0,70.0,33,2.12121212121212,N,N,supraglottic,3,PLRT,36.23333333,1.0
+10167,76.1333333333333,III,Male,White/Caucasion,CC,R,BOT,R2,Unknown,Never,0,III,NaN,N2,T1,CC,41.0,66.0,30,2.2,"Y (L2, L3)",Y,supraglottic,1,PLRT,36.33333333,1.0
+10168,51.758333333333304,II,Male,White/Caucasion,CC,Bilateral,BOT,"R2, L2",Unknown,Never,0,IV,NaN,N2,T4,CC,41.0,70.0,35,2.0,N,N,glottic,1,LP/chemoRT,36.4,1.0
+10169,59.6583333333333,NaN,Male,Hispanic/Latino,CC,R,BOT,"R2, R3, R4",Unknown,Current,3,IV,NaN,N2,T2,CC,43.0,69.96,33,2.12,"Y (R2, R3, R5)",Y,supraglottic,0,LP/chemoRT,36.96666667,0.0
+10170,55.272222222222204,III,Male,White/Caucasion,CC,R,Tonsil,"R2, R3",Unknown,Current,30,IV,NaN,N2,T2,CC,42.0,72.0,40,1.8,Y (R2),N,supraglottic,0,LP/chemoRT,38.53333333,1.0
+10171,49.105555555555604,III,Male,White/Caucasion,CC,Bilateral,BOT,"R2, R3, L2, L3",Unknown,Formar,1,IV,NaN,N2,T4,CC,41.0,72.0,40,1.8,N,Y,supraglottic,1,PLRT,38.76666667,0.0
+10172,48.852777777777796,III,Male,White/Caucasion,CC,R,Tonsil,"R2, R3, L2, L3",Unknown,Formar,5,IV,NaN,N2,T2,CC,38.0,66.0,33,2.0,N,Y,glottic,1,PLRT,38.96666667,0.0
+10173,78.2138888888889,III,Male,White/Caucasion,CC,R,Tonsil,"R RPLN, R2, R3, R4",Unknown,Formar,60,IV,NaN,N2,T3,CC,43.0,72.0,30,2.4,Y,N,supraglottic,0,LP/chemoRT,38.96666667,0.0
+10174,50.3888888888889,II,Male,White/Caucasion,CC,R,BOT,R2,Unknown,Never,0,IV,NaN,N2,T1,CC,44.0,69.96,33,2.12,N,Y,transglottic,1,LP/chemoRT,39.03333333,1.0
+10175,80.6444444444444,I,Male,White/Caucasion,CC,R,BOT,"R2, R3, L2, L3",Unknown,Formar,80,III,NaN,N1,T2,CC,45.0,70.0,33,2.12121212121212,N,N,supraglottic,0,PLRT,39.13333333,0.0
+10176,64.2777777777778,II,Male,White/Caucasion,CC,R,BOT,R2,Unknown,Never,0,IV,NaN,N1,T4,CC,44.0,69.96,33,2.12,N,N,supraglottic,1,PLRT,39.33333333,0.0
+10177,51.269444444444396,III,Male,White/Caucasion,CC,R,BOT,R2,Unknown,Never,0,IV,NaN,N2,T3,CC,44.0,69.96,33,2.12,N,Y,supraglottic,2,LP/chemoRT,39.36666667,1.0
+10178,45.325,III,Male,White/Caucasion,CC,L,BOT,"L2, L3",Unknown,Formar,10,IV,NaN,N2,T1,CC,38.0,66.0,30,2.2,N,Y,supraglottic,1,LP/chemoRT,39.53333333,1.0
+10179,84.5361111111111,II,Male,White/Caucasion,CC,R,Soft palate,"R2, R3, L2",Unknown,Formar,40,IV,NaN,N0,T4,CC,NaN,0.0,0,NaN,N,Y,supraglottic,1,LP/chemoRT,40.5,1.0
+10180,64.1055555555556,III,Male,White/Caucasion,CC,R,Tonsil,"R1B, R2, R3, R4, L2",Unknown,Never,0,IV,NaN,N2,T4,CC,42.0,70.0,35,2.0,N,Y,supraglottic,0,PLRT,40.6,0.0
+10181,45.825,II,Male,White/Caucasion,CC,R,BOT,R2,Unknown,Formar,30,IV,NaN,N3,T2,CC,42.0,72.0,40,1.8,N,Y,glottic,1,LP/chemoRT,40.63333333,1.0
+10182,55.188888888888904,IV,Male,White/Caucasion,CC,R,BOT,"R2, R3",Unknown,Formar,100,IV,NaN,N2,T4,CC,44.0,70.0,33,2.12121212121212,N,Y,transglottic,0,LP/chemoRT,41.63333333,1.0
+10183,45.95,III,Male,White/Caucasion,CC,Bilateral,Tonsil,"R2, R3",Unknown,Formar,5,IV,NaN,N3,T3,CC,46.0,69.96,33,2.12,N,Y,supraglottic,0,LP/chemoRT,41.7,0.0
+10184,63.1305555555556,II,Male,White/Caucasion,CC,L,Tonsil,L2,Unknown,Never,0,IV,NaN,N0,T4,CC,44.0,70.0,33,2.12121212121212,N,N,supraglottic,1,PLRT,41.73333333,0.0
+10185,64.5944444444444,III,Male,White/Caucasion,CC,L,Tonsil,"L2, L3",Unknown,Formar,10,IV,NaN,N3,T4,CC,29.0,72.0,22,3.2727272727272703,N,N,glottic,0,LP/chemoRT,41.86666667,0.0
+10186,63.45,II,Male,White/Caucasion,CC,L,BOT,"L1B, L2",Unknown,Current,100,IV,NaN,N2,T3,CC,51.0,69.96,33,2.12,N,Y,supraglottic,0,LP/RT alone,41.93333333,0.0
+10187,49.4555555555556,II,Male,White/Caucasion,CC,L,BOT,L2,Unknown,Formar,69,IV,NaN,N2,T3,CC,42.0,72.0,40,1.8,N,Y,supraglottic,1,LP/RT alone,41.93333333,0.0
+10188,62.1805555555556,III,Male,White/Caucasion,CC,R,Tonsil,"R2, R3",Unknown,Current,40,IV,NaN,N2,T4,CC,39.0,70.0,35,2.0,N,Y,supraglottic,0,LP/chemoRT,41.96666667,0.0
+10189,57.8388888888889,III,Male,White/Caucasion,CC,R,BOT,R2,Unknown,Never,0,IV,NaN,N2,T2,CC,44.0,69.96,33,2.12,"Y (R2, R3)",Y,supraglottic,0,LP/chemoRT,42.16666667,1.0
+10190,68.0388888888889,III,Male,White/Caucasion,CC,R,Tonsil,R2,Unknown,Current,30,IV,NaN,N2,T4,CC,37.0,72.0,40,1.8,Y,Y,supraglottic,1,LP/RT alone,42.53333333,0.0
+10191,53.855555555555604,III,Male,White/Caucasion,CC,R,BOT,R2,Unknown,Formar,72,IV,NaN,N2,T1,CC,42.0,66.0,30,2.2,N,Y,supraglottic,1,PLRT,54.16666667,0.0
+10192,62.7833333333333,II,Female,White/Caucasion,CC,R,Tonsil,"R2, L2",Unknown,Formar,36,IV,NaN,N0,T4,CC,48.0,70.0,33,2.12121212121212,N,Y,supraglottic,0,LP/chemoRT,42.56666667,1.0
+10193,65.1527777777778,III,Female,White/Caucasion,CC,L,Tonsil,"L2, L3",Unknown,Formar,14,IV,NaN,N2,T3,CC,42.0,70.0,35,2.0,N,Y,supraglottic,1,LP/RT alone,42.83333333,0.0
+10194,20.95,II,Male,White/Caucasion,CC,R,BOT,R2,Unknown,Current,38,IV,NaN,N2,T4,CC,36.0,72.0,40,1.8,N,Y,transglo,0,PLRT,43.63333333,0.0
+10195,62.0305555555556,NaN,Male,White/Caucasion,CC,R,BOT,"L2, L3, L4",Unknown,Formar,5,IV,NaN,N2,T3,CC,46.0,66.0,33,2.0,N,N,supraglottic,1,LP/RT alone,52.96666667,0.0
+10196,73.2416666666667,II,Male,White/Caucasion,CC,R,BOT,NaN,Unknown,Never,0,II,NaN,N0,T2,CC,42.0,72.0,40,1.8,N,Y,supraglottic,0,LP/RT alone,95.53333333,0.0
+10197,65.6305555555556,II,Male,White/Caucasion,CC,R,NOS,R2,Unknown,Formar,15,III,NaN,N0,T3,CC,44.0,70.0,33,2.12121212121212,N,Y,supraglottic,0,LP/RT alone,45.13333333,0.0
+10198,52.375,II,Male,White/Caucasion,CC,L,BOT,L2,Unknown,Formar,32,IV,NaN,N2,T2,CC,39.0,72.0,40,1.8,"Y (L2a, L2b, L3)",Y,transglottic,1,LP/chemoRT,45.23333333,0.0
+10199,55.144444444444396,NaN,Male,Hispanic/Latino,CC,R,BOT,R2,Unknown,Formar,50,III,NaN,N1,T3,CC,45.0,69.96,33,2.12,N,Y,supraglottic,2,LP/chemoRT,45.3,1.0
+102,58.4333333333333,III,Male,White/Caucasion,IC+CC,L,BOT,"L2, L3, R2",Positive,Current,15,IV,II,N2,T2,IC+CC,44.0,70.0,33,2.12121212121212,N,Y,supraglottic,0,PLRT,45.56666667,0.0
+10200,59.3638888888889,NaN,Male,White/Caucasion,CC,R,BOT,R2,Unknown,Current,90,II,NaN,N0,T2,CC,41.0,71.0,40,1.775,N,Y,glottic,0,LP/chemoRT,45.63333333,1.0
+10201,66.6166666666667,III,Male,White/Caucasion,CC,L,BOT,NaN,Unknown,Formar,25,IV,NaN,N0,T4,CC,44.0,69.96,33,2.12,N,N,supraglottic,0,LP/RT alone,46.73333333,0.0
+10202,48.5111111111111,III,Male,White/Caucasion,CC,R,BOT,"R2, R3",Unknown,Never,0,IV,NaN,N2,T3,CC,45.0,69.96,33,2.12,N,Y,supraglottic,1,LP/RT alone,49.63333333,0.0
+10203,43.8861111111111,III,Male,White/Caucasion,CC,L,Tonsil,R2,Unknown,Never,0,IV,NaN,N2,T2,CC,44.0,69.96,33,2.12,"Y (L2a, L2b, L3)",N,supraglottic,0,LP/chemoRT,47.6,1.0
+10204,48.7055555555556,III,Male,Hispanic/Latino,CC,R,NOS,R2,Unknown,Current,30,IV,NaN,N2,T4,CC,43.0,72.0,42,1.7142857142857097,Y,Y,supraglottic,1,PLRT,47.66666667,1.0
+10205,60.45,II,Male,White/Caucasion,CC,Bilateral,NOS,R2,Unknown,Current,60,III,NaN,N1,T2,CC,45.0,70.0,33,2.12121212121212,Y,Y,supraglottic,1,LP/chemoRT,47.66666667,1.0
+103,61.4083333333333,III,Male,White/Caucasion,CC,L,Soft palate,L2,Positive,Formar,40,IV,II,N2,T3,CC,44.0,70.0,33,2.12121212121212,"Y, left (2L1, 1L2, 4L3)",Y,supraglottic,1,LP/RT alone,48.16666667,0.0
+104,51.688888888888904,III,Male,White/Caucasion,CC,R,NOS,R2,Positive,Formar,20,IV,II,N2,T2,CC,44.0,70.0,33,2.12121212121212,Y,Y,glottic,0,LP/chemoRT,48.33333333,1.0
+105,62.0444444444444,II,Male,White/Caucasion,CC,L,Tonsil,L2,Positive,Current,NaN,IV,II,N2,T3,CC,37.0,70.0,33,2.12121212121212,N,N,supraglottic,1,LP/chemoRT,48.5,1.0
+106,65.3666666666667,III,Male,White/Caucasion,Radiation alone,L,Tonsil,L2,Positive,Formar,11,III,I,N1,T1,Radiation alone,41.0,66.0,30,2.2,N,Y,supraglottic,1,LP/chemoRT,48.83333333,1.0
+107,65.4361111111111,III,Male,African American/Black,IC+CC,L,BOT,"L2, R2",Positive,Formar,8,IV,II,N2,T2,IC+CC,38.0,66.0,30,2.2,N,Y,supraglottic,0,LP/RT alone,49.16666667,0.0
+108,54.741666666666696,NaN,Male,White/Caucasion,IC+Radiation alone,R,BOT,"R2, R3, R4",Positive,Never,0,IV,II,N2,T1,IC+Radiation alone,38.0,66.0,30,2.2,N,Y,glottic,0,LP/chemoRT,49.5,1.0
+109,69.3055555555556,II,Male,White/Caucasion,Radiation alone,L,NOS,L2,Positive,Never,0,III,I,N1,T1,Radiation alone,38.0,66.0,30,2.2,N,N,supraglottic,0,LP/chemoRT,49.63333333,0.0
+11,49.5666666666667,III,Male,White/Caucasion,CC,L,BOT,L2,Positive,Current,30,IV,II,N2,T3,CC,44.0,70.0,33,2.12121212121212,N,Y,supraglottic,1,PLRT,50.33333333,0.0
+110,53.8305555555556,III,Male,White/Caucasion,IC+CC,L,GPS,"R2, L2",Positive,Current,61,IV,II,N2,T1,IC+CC,43.0,70.0,33,2.12121212121212,"Y, left (8L2, 5L3, 8L4), right (23L2, 10L3, 1L4) (All negative except 1 left L2)",N,supraglottic,0,LP/chemoRT,50.96666667,0.0
+111,71.9111111111111,NaN,Female,White/Caucasion,IC+CC,R,BOT,"R2, R3",Positive,Current,15,IV,III,N2,T4,IC+CC,45.0,70.0,33,2.12121212121212,N,Y,supraglottic,2,LP/RT alone,51.1,0.0
+112,54.6388888888889,II,Male,African American/Black,IC+CC,L,Tonsil,"L3, R2",Positive,Never,0,IV,II,N2,T3,IC+CC,44.0,70.0,33,2.12121212121212,N,Y,supraglottic,0,LP/chemoRT,51.76666667,1.0
+113,42.5555555555556,III,Male,White/Caucasion,CC,L,Tonsil,"L2, L3",Positive,Formar,30,IV,II,N2,T1,CC,41.0,66.0,30,2.2,N,Y,supraglottic,0,PLRT,51.96666667,0.0
+114,73.1277777777778,II,Male,White/Caucasion,Radiation alone,L,BOT,"L1B, L2",Positive,Formar,20,III,I,N1,T2,Radiation alone,38.0,66.0,30,2.2,N,N,supraglottic,2,LP/chemoRT,52.16666667,1.0
+115,50.4166666666667,NaN,Male,White/Caucasion,CC,R,BOT,R2,Positive,Never,0,IV,II,N2,T2,CC,38.0,72.0,34,2.11764705882353,N,N,supraglottic,1,LP/RT alone,52.33333333,0.0
+116,65.7833333333333,III,Male,White/Caucasion,Radiation alone,L,Tonsil,L2,Positive,Formar,NaN,III,I,N1,T2,Radiation alone,38.0,66.0,30,2.2,N,N,supraglottic,1,LP/chemoRT,52.33333333,1.0
+117,60.075,II,Female,White/Caucasion,CC,R,Tonsil,"L3, R2, R3",Positive,Formar,30,IV,II,N2,T2,CC,38.0,66.0,30,2.2,N,Y,supraglottic,0,LP/RT alone,52.96666667,0.0
+118,53.55,III,Male,White/Caucasion,CC,L,Tonsil,L2,Positive,Never,0,III,I,N1,T2,CC,41.0,66.0,30,2.2,N,Y,supraglottic,0,PLRT,61.13333333,0.0
+119,59.59722222222221,III,Male,White/Caucasion,Radiation alone,L,Tonsil,"L2, L3",Positive,Current,58,IV,II,N2,T1,Radiation alone,38.0,66.0,30,2.2,N,N,supraglottic,0,LP/RT alone,53.8,0.0
+12,54.144444444444396,II,Male,White/Caucasion,IC+CC,R,BOT,"R2, L2, L3",Positive,Formar,60,IV,II,N2,T2,IC+CC,44.0,70.0,33,2.12121212121212,Y (R2),Y,supraglottic,0,PLRT,55.5,0.0
+120,47.7611111111111,NaN,Male,White/Caucasion,IC+CC,R,NOS,"R2, R3",Positive,Formar,20,IV,II,N2,T1,IC+CC,42.0,66.0,30,2.2,"Y (5xR5, 15xR3, 1xR4) (ALL NEG)",Y,supraglottic,1,LP/RT alone,55.53333333,0.0
+121,58.7333333333333,III,Male,White/Caucasion,IC+Radiation alone,L,BOT,"L2, L3, L4",Positive,Never,0,IV,II,N2,T1,IC+Radiation alone,38.0,66.0,30,2.2,Y (6xL2/3) (ALL NEG),Y,supraglottic,1,LP/chemoRT,56.16666667,1.0
+122,69.7861111111111,III,Male,White/Caucasion,CC,L,Tonsil,L2,Positive,Current,69,IV,II,N2,T2,CC,44.0,70.0,33,2.12121212121212,N,Y,supraglottic,0,PLRT,56.56666667,0.0
+123,54.352777777777796,II,Male,White/Caucasion,IC+CC,R,BOT,"L2, R2, R3, R RPLN",Positive,Never,0,IV,III,N2,T4,IC+CC,45.0,70.0,33,2.12121212121212,N,Y,transglottic,1,PLRT,56.63333333,1.0
+124,51.9861111111111,III,Male,White/Caucasion,Radiation alone,L,Tonsil,L2,Positive,Formar,NaN,IV,II,N2,T1,Radiation alone,42.0,66.0,30,2.2,N,N,supraglottic,2,LP/chemoRT,56.7,0.0
+125,47.7805555555556,III,Male,White/Caucasion,CC,R,Tonsil,R2,Positive,Never,0,IV,NaN,N2,Tx,CC,38.0,66.0,30,2.2,N,N,supraglottic,0,LP/chemoRT,56.86666667,1.0
+126,60.977777777777796,II,Male,White/Caucasion,IC+Radiation alone,L,BOT,"L2, L3",Positive,Current,40,IV,II,N2,T2,IC+Radiation alone,47.0,66.0,30,2.2,N,Y,transglottic,1,LP/chemoRT,57.2,0.0
+127,65.0611111111111,II,Male,White/Caucasion,IC+Radiation alone,L,NOS,"L2, L3, R2",Positive,Formar,40,IV,II,N2,T2,IC+Radiation alone,45.0,70.0,33,2.12121212121212,N,N,supraglottic,1,LP/chemoRT,57.66666667,1.0
+128,69.9222222222222,III,Male,White/Caucasion,IC+CC,L,Tonsil,"L2, L3, L4",Negative,Formar,8,IV,IV,N2,T3,IC+CC,39.0,66.0,30,2.2,"Y/LEFT NECK DISSECTION,2,POSITIVE",Y,supraglottic,0,PLRT,57.7,0.0
+129,58.0555555555556,III,Male,Hispanic/Latino,IC+CC,R,GPS,"L3, L4, R2, R3, R4",Positive,Formar,19,IV,II,N2,T2,IC+CC,44.0,66.0,33,2.0,"Y (6xR2, 5xR3, 8xR4)",Y,supraglottic,1,PLRT,58.36666667,0.0
+13,54.2,NaN,Male,African American/Black,CC,Bilateral,NOS,"L2, L3",Negative,Never,0,IV,IV,N2,T4,CC,45.0,70.04,34,2.06,N,N,supraglottic,1,LP/chemoRT,59.06666667,0.0
+130,62.84722222222221,II,Female,White/Caucasion,CC,R,Tonsil,R2,Positive,Never,0,III,II,N1,T3,CC,39.0,70.0,35,2.0,N,N,supraglottic,0,LP/chemoRT,59.4,0.0
+131,47.747222222222206,III,Male,White/Caucasion,IC+CC,L,Tonsil,"L3,L4,R4",Positive,Current,70,IV,II,N2,T3,IC+CC,45.0,70.0,33,2.12121212121212,N,Y,supraglo,0,LP/RT alone,59.96666667,0.0
+132,46.688888888888904,III,Female,Asian,Radiation alone,L,BOT,L2,Positive,Never,0,IV,II,N2,T1,Radiation alone,41.0,66.0,30,2.2,N,N,glottic,2,LP/chemoRT,60.13333333,0.0
+133,69.2416666666667,III,Male,White/Caucasion,CC,R,BOT,R2,Negative,Formar,3,IV,IV,N2,T2,CC,39.0,66.0,30,2.2,N,Y,supraglottic,0,LP/RT alone,60.83333333,0.0
+134,62.936111111111096,IV,Female,White/Caucasion,CC,L,BOT,"L1B, L2",Negative,Formar,2.5,IV,IV,N2,T2,CC,39.0,66.0,30,2.2,N,N,supraglottic,1,PLRT,61.83333333,0.0
+135,53.491666666666696,II,Male,White/Caucasion,CC,R,BOT,"L2, R2",Negative,Current,70,IV,IV,N2,T4,CC,44.0,70.0,33,2.12121212121212,"Y  (4xL2, 3xL3, 3xL4, 4xR2, 5xR3, 4xR4) (ALL NEG except for 1xR2)",N,supraglottic,1,PLRT,62.23333333,0.0
+136,69.3388888888889,III,Male,White/Caucasion,CC,R,BOT,"L3, R2",Negative,Formar,40,IV,IV,N2,T1,CC,39.0,66.0,30,2.2,N,Y,supraglottic,0,LP/chemoRT,92.86666667,0.0
+137,60.477777777777796,III,Male,White/Caucasion,IC+Radiation alone,L,BOT,"L2,L3,R2",Positive,Current,30,IV,II,N2,T2,IC+Radiation alone,38.0,66.0,33,2.0,N,Y,glottic,0,LP/RT alone,76.4,0.0
+138,51.7361111111111,II,Male,White/Caucasion,CC,L,BOT,"L2, L3",Positive,Never,0,IV,II,N2,T2,CC,44.0,70.0,33,2.12121212121212,N,N,supraglottic,0,PLRT,62.6,0.0
+139,68.1888888888889,III,Female,White/Caucasion,CC,R,NOS,R2,Positive,Formar,40,IV,II,N2,T3,CC,43.0,70.0,33,2.12121212121212,N,N,supraglottic,1,LP/chemoRT,63.56666667,0.0
+14,59.1777777777778,NaN,Male,White/Caucasion,IC+CC,R,BOT,"R RPLN, R2, R3, R4, R5B, L2, L3, L4, L5B",Positive,Formar,30,IV,III,N2,T4,IC+CC,44.0,70.0,33,2.12121212121212,N,N,supraglottic,1,LP/RT alone,64.03333333,0.0
+140,81.3111111111111,III,Male,White/Caucasion,IC+CC,L,BOT,"L2,L3,R3",Positive,Never,0,IV,III,N2,T4,IC+CC,50.0,70.0,33,2.12121212121212,N,Y,supraglottic,0,PLRT,64.93333333,0.0
+141,51.3416666666667,II,Male,White/Caucasion,IC+CC,R,GPS,R2,Positive,Current,96,IV,II,N2,T1,IC+CC,39.0,66.0,30,2.2,"Y (R1B, 15xR2, 7xR3) (ALL NEG)",Y,supraglottic,0,LP/chemoRT,65.23333333,0.0
+142,69.7555555555556,II,Male,NOS,IC+CC,L,NOS,"L2, L3, R2",Positive,Current,110,IV,II,N2,T3,IC+CC,44.0,70.0,33,2.12121212121212,N,N,transglottic,2,PLRT,65.6,1.0
+143,38.716666666666704,II,Male,White/Caucasion,CC,L,Tonsil,"L2,L3",Positive,Never,0,IV,II,N2,T1,CC,44.0,70.0,33,2.12121212121212,N,Y,supraglottic,0,LP/chemoRT,65.73333333,1.0
+144,59.9305555555556,NaN,Male,White/Caucasion,CC,L,NOS,L2,Positive,Formar,15,IV,III,N1,T4,CC,44.0,70.0,33,2.12121212121212,N,N,glottic,3,LP/RT alone,66.66666667,0.0
+145,67.05,II,Male,White/Caucasion,CC,R,BOT,L3,Positive,Formar,50,III,II,N1,T3,CC,44.0,70.0,33,2.12121212121212,N,Y,supraglottic,2,LP/chemoRT,66.96666667,1.0
+146,74.2861111111111,NaN,Male,White/Caucasion,IC+CC,R,Tonsil,R2,Positive,Current,84,IV,II,N2,T2,IC+CC,44.0,70.0,33,2.12121212121212,N,Y,supraglottic,0,LP/RT alone,67.66666667,0.0
+147,64.1277777777778,III,Male,White/Caucasion,IC+Radiation alone,R,BOT,"L2,R2",Positive,Formar,0,IV,II,N2,T3,IC+Radiation alone,44.0,70.0,33,2.12121212121212,N,Y,supraglottic,0,PLRT,69.9,0.0
+148,71.91944444444451,III,Male,White/Caucasion,CC,L,Tonsil,L2,Positive,Formar,44,III,I,N1,T2,CC,39.0,66.0,30,2.2,N,N,supraglottic,1,PLRT,70.06666667,0.0
+149,58.325,III,Male,White/Caucasion,Radiation alone,R,BOT,"R2, R3",Positive,Formar,30,IV,II,N2,T1,Radiation alone,39.0,66.0,30,2.2,N,N,supraglottic,0,LP/chemoRT,70.16666667,0.0
+15,59.2972222222222,NaN,Male,White/Caucasion,CC,R,BOT,R2,Negative,Current,66,IV,IV,N1,T4,CC,39.0,70.0,35,2.0,N,Y,supraglottic,1,LP/chemoRT,200.16666669999998,1.0
+150,54.6777777777778,III,Male,White/Caucasion,CC,L,Tonsil,L2,Positive,Formar,NaN,IV,II,N2,T2,CC,39.0,66.0,30,2.2,"Y (4xL2, 5xL3, 3xL4) (ALL NEG)",Y,supraglottic,0,LP/RT alone,70.5,0.0
+151,70.5027777777778,I,Male,African American/Black,IC+CC,L,NOS,"L2,L3",Positive,Formar,40,IV,III,N2,T4,IC+CC,44.0,70.0,30,2.3333333333333304,N,N,supraglottic,0,LP/chemoRT,70.9,1.0
+152,41.102777777777796,NaN,Male,White/Caucasion,CC,L,NOS,"L2, L5A, L5B",Positive,Current,6,IV,II,N2,T2,CC,44.0,70.0,33,2.12121212121212,N,Y,supraglottic,1,LP/chemoRT,71.03333333,0.0
+153,45.788888888888906,III,Male,White/Caucasion,CC,L,BOT,"L2,L3",Positive,Never,0,IV,II,N2,T2,CC,39.0,66.0,30,2.2,N,Y,glottic,1,LP/chemoRT,71.3,0.0
+154,63.7388888888889,III,Female,White/Caucasion,Radiation alone,L,Tonsil,L3,Positive,Formar,0.125,IV,II,N2,T1,Radiation alone,38.0,66.0,30,2.2,N,N,supraglottic,0,PLRT,71.43333333,0.0
+155,59.4527777777778,NaN,Male,White/Caucasion,CC,L,Tonsil,L2,Positive,Formar,NaN,IV,II,N2,T2,CC,38.0,66.0,30,2.2,N,N,supraglottic,0,LP/RT alone,73.2,0.0
+156,46.788888888888906,NaN,Male,White/Caucasion,IC+CC,L,Tonsil,"L2, L RPLN",Positive,Never,0,IV,II,N2,T2,IC+CC,37.0,70.0,33,2.12121212121212,N,Y,supraglottic,0,LP/chemoRT,73.6,0.0
+157,43.644444444444396,II,Male,White/Caucasion,IC+CC,R,BOT,"L3, R2, R3, R4",Positive,Never,0,IV,II,N2,T2,IC+CC,45.0,70.0,33,2.12121212121212,N,Y,transglottic,0,LP/chemoRT,74.46666667,0.0
+158,57.3638888888889,II,Female,White/Caucasion,IC+CC,R,BOT,"L2, R2, R RPLN",Positive,Never,0,IV,II,N2,T2,IC+CC,11.0,70.0,33,2.12121212121212,Y (19xR2/3) (ALL NEG),Y,supraglottic,1,LP/RT alone,74.7,0.0
+159,70.775,III,Male,White/Caucasion,CC,L,Tonsil,L2,Positive,Formar,3,III,I,N1,T3,CC,45.0,70.0,33,2.12121212121212,Y (18xL2/3) (ALL NEG),N,supraglottic,0,PLRT,74.8,1.0
+16,47.4555555555556,III,Male,White/Caucasion,Radiation alone,R,BOT,"R2, R3",Positive,Current,30,III,I,N1,T2,Radiation alone,41.0,66.0,30,2.2,N,Y,supraglottic,1,LP/chemoRT,75.6,0.0
+160,56.3694444444444,II,Male,White/Caucasion,Radiation alone,L,Tonsil,"L2, L3",Positive,Never,0,IV,II,N2,T1,Radiation alone,42.0,66.0,30,2.2,N,N,transglottic,0,LP/chemoRT,75.73333333,1.0
+161,65.575,II,Male,White/Caucasion,CC,L,BOT,"L2, L RPLN, L3, R2",Positive,Current,NaN,IV,II,N2,T2,CC,38.0,70.0,35,2.0,N,Y,glottic,1,LP/chemoRT,78.43333333,1.0
+162,65.29444444444451,III,Male,White/Caucasion,Radiation alone,L,BOT,L3,Positive,Formar,26,III,I,N1,T2,Radiation alone,42.0,66.0,30,2.2,N,N,supraglottic,0,LP/chemoRT,78.6,0.0
+163,59.8611111111111,NaN,Female,White/Caucasion,CC,R,Soft palate,R2,Negative,Current,43,III,III,N1,T3,CC,53.0,70.0,33,2.12121212121212,"Y, right (1L1) (12L2&3) (All negative)",N,transglottic,0,PLRT,78.63333333,0.0
+164,52.438888888888904,II,Male,White/Caucasion,CC,L,Tonsil,L2,Positive,Formar,30,IV,II,N2,T3,CC,44.0,70.0,33,2.12121212121212,"Y (11xL2, 13xL3) (ALL NEG)",Y,supraglottic,1,LP/chemoRT,79.8,1.0
+165,76.5944444444444,NaN,Male,White/Caucasion,IC+CC,L,BOT,L2,Negative,Formar,69,IV,IV,N3,T1,IC+CC,44.0,70.0,33,2.12121212121212,N,N,supraglottic,1,LP/chemoRT,79.9,1.0
+166,51.0694444444444,II,Male,White/Caucasion,Radiation alone,L,Tonsil,"L2, L3",Positive,Formar,31,IV,II,N2,T2,Radiation alone,39.0,70.0,35,2.0,Y/RIGHT NECK DISSECTION LEVEL II,N,glottic,1,LP/chemoRT,80.0,1.0
+167,64.1888888888889,III,Male,White/Caucasion,IC+CC,L,BOT,"R2, R3",Positive,Formar,20,IV,II,N2,T2,IC+CC,45.0,66.0,30,2.2,N,Y,supraglottic,0,LP/chemoRT,80.83333333,0.0
+168,51.4472222222222,II,Male,White/Caucasion,IC+CC,R,BOT,"R1B, R2, R3, L2",Positive,Formar,10,IV,III,N2,T4,IC+CC,44.0,70.0,35,2.0,N,Y,supraglottic,0,LP/RT alone,80.9,0.0
+169,57.7083333333333,III,Male,White/Caucasion,CC,R,BOT,R2,Positive,Current,0,IV,II,N2,T2,CC,39.0,70.0,33,2.12121212121212,N,Y,supraglottic,1,LP/chemoRT,81.2,0.0
+17,49.3861111111111,II,Male,White/Caucasion,Radiation alone,R,Tonsil,R2,Positive,Formar,15,IV,II,N2,T1,Radiation alone,41.0,66.0,30,2.2,"Y/RIGHT LEVEL II,III/ALL NEGATIVE",Y,transglottic,0,PLRT,82.4,0.0
+170,55.247222222222206,III,Male,White/Caucasion,IC+Radiation alone,R,Tonsil,"R2/3, R3",Positive,Current,15,IV,II,N2,T3,IC+Radiation alone,44.0,66.0,30,2.2,N,Y,supraglottic,1,LP/chemoRT,82.53333333,1.0
+171,55.1944444444444,III,Male,White/Caucasion,IC+CC,L,Tonsil,"L2, L3",Positive,Formar,6,IV,II,N2,T2,IC+CC,39.0,66.0,30,2.2,N,Y,supraglottic,1,PLRT,84.46666667,0.0
+172,44.85,NaN,Male,White/Caucasion,IC+CC,R,BOT,"R3, R3/R4",Positive,Formar,7,IV,III,N3,T3,IC+CC,46.0,70.0,33,2.12121212121212,N,Y,supraglottic,1,LP/chemoRT,84.5,1.0
+173,41.2611111111111,III,Female,White/Caucasion,IC+CC,R,Tonsil,R3,Positive,Never,0,IV,II,N2,T2,IC+CC,38.0,66.0,30,2.2,"Y, right (3L2, 13L3) (All negative)",Y,supraglottic,0,LP/RT alone,85.46666667,0.0
+174,56.1722222222222,NaN,Male,White/Caucasion,CC,R,Tonsil,R2,Positive,Never,0,IV,II,N2,T1,CC,39.0,66.0,30,2.2,"Y/RIGHT NECK DISSECTION, METASTATIC SCC IN ONE OF 8 LNS/ EXTERNAL JUGULAR,1,NEGATIVE FOR TUMOR.",N,glottic,0,LP/chemoRT,85.46666667,1.0
+175,75.55555555555559,III,Male,White/Caucasion,IC+CC,Bilateral,BOT,"R RPLN, R1B, R2, R3, L2",Positive,Never,0,IV,III,N2,T4,IC+CC,42.0,70.0,35,2.0,"Y, right (7L2 - all negative but residual microscopic foci of squamous carcinoma with marked treatment effect and caviation, 2L3 - all negative, 0L4, negative for tumor)",N,transglottic,0,LP/chemoRT,86.2,0.0
+176,54.336111111111094,III,Male,African American/Black,CC,R,Tonsil,"R2, R3",Positive,Current,41,IV,II,N2,T2,CC,44.0,70.0,33,2.12121212121212,N,N,glottic,1,LP/chemoRT,87.1,0.0
+177,52.313888888888904,NaN,Female,White/Caucasion,IC+CC,R,NOS,"R RPLN, R2",Positive,Never,0,IV,II,N2,T3,IC+CC,44.0,70.0,33,2.12121212121212,N,Y,glottic,0,LP/chemoRT,87.1,1.0
+178,55.9666666666667,III,Male,White/Caucasion,CC,R,Tonsil,R2,Positive,Never,0,IV,II,N2,T1,CC,38.0,66.0,30,2.2,N,N,supraglottic,2,LP/RT alone,87.56666667,0.0
+179,59.5833333333333,III,Male,White/Caucasion,IC+CC,L,Tonsil,"L3, L4",Positive,Formar,16,IV,II,N2,T3,IC+CC,44.0,70.0,33,2.12121212121212,N,Y,supraglottic,0,PLRT,88.03333333,0.0
+18,67.7083333333333,II,Male,White/Caucasion,CC,R,BOT,R2,Negative,Current,40,III,III,N1,T3,CC,41.0,69.96,33,2.12,"Y, left (3 all negative (level unspecified) right (2 of 4 w/ metastatic squamous carcinoma (level unspecified)",Y,supraglottic,1,LP/chemoRT,88.66666667,0.0
+180,49.2861111111111,III,Female,White/Caucasion,IC+CC,R,NOS,"L2,R2",Negative,Current,30,IV,IV,N2,T3,IC+CC,47.0,70.0,30,2.3333333333333304,N,Y,supraglottic,0,PLRT,88.66666667,1.0
+181,62.8416666666667,III,Male,White/Caucasion,IC+Radiation alone,R,BOT,"R2, R3",Positive,Never,0,IV,II,N2,T1,IC+Radiation alone,39.0,66.0,30,2.2,N,Y,supraglottic,1,LP/RT alone,91.13333333,0.0
+182,78.75555555555559,NaN,Male,White/Caucasion,CC,R,Tonsil,"R2, L2",Negative,Formar,27,IV,IV,N2,T3,CC,45.0,70.0,33,2.12121212121212,N,Y,supraglottic,0,LP/chemoRT,93.13333333,0.0
+183,69.1388888888889,II,Male,White/Caucasion,IC+CC,R,BOT,"R2, R3",Positive,Formar,75,IV,III,N2,T4,IC+CC,43.0,70.0,33,2.12121212121212,N,Y,supraglottic,0,LP/chemoRT,93.5,1.0
+184,74.3527777777778,III,Male,White/Caucasion,IC+CC,R,BOT,"R2,R3, L2",Positive,Never,0,IV,III,N2,T4,IC+CC,41.0,70.0,35,2.0,"Y, left (4L2B, 7L2A, 6L3, 6L5) (All negative)",N,supraglottic,0,LP/chemoRT,94.83333333,1.0
+185,58.622222222222206,II,Male,White/Caucasion,IC+CC,L,Tonsil,L2,Positive,Formar,11,IV,II,N2,T2,IC+CC,44.0,70.0,33,2.12121212121212,N,Y,supraglottic,1,LP/RT alone,96.06666667,0.0
+186,29.494444444444397,II,Female,Hispanic/Latino,IC+CC,R,Tonsil,"R2, R3, L2, L3",Negative,Never,0,IV,IV,N2,T4,IC+CC,44.0,70.0,33,2.12121212121212,N,Y,supraglottic,2,LP/RT alone,97.26666667,0.0
+187,50.936111111111096,III,Male,White/Caucasion,IC+CC,L,Tonsil,L2,Positive,Formar,120,IV,II,N2,T2,IC+CC,41.0,66.0,30,2.2,N,Y,glottic,1,LP/chemoRT,97.66666667,1.0
+188,62.6611111111111,II,Male,White/Caucasion,CC,R,Tonsil,R2,Positive,Formar,43,IV,II,N2,T2,CC,44.0,70.0,33,2.12121212121212,N,Y,supraglottic,0,LP/chemoRT,97.9,0.0
+189,50.627777777777794,III,Male,White/Caucasion,IC+CC,L,Tonsil,"L2, L2/3, L3, L5B",Positive,Current,3,IV,II,N2,T2,IC+CC,43.0,70.0,32,2.1875,N,Y,supraglottic,0,LP/chemoRT,98.63333333,1.0
+19,58.9888888888889,III,Male,White/Caucasion,IC+Radiation alone,R,NOS,"R2, R3",Positive,Never,0,IV,II,N2,T2,IC+Radiation alone,38.0,66.0,30,2.2,N,Y,supraglottic,0,LP/chemoRT,99.0,1.0
+190,39.6638888888889,III,Male,Hispanic/Latino,IC+CC,L,Tonsil,"R2, R3, R1B",Positive,Never,0,IV,III,N2,T4,IC+CC,44.0,66.0,33,2.0,N,N,supraglottic,0,LP/RT alone,99.53333333,0.0
+191,73.80277777777779,II,Female,White/Caucasion,Radiation alone,R,Tonsil,R2,Negative,Current,51,III,III,N1,T2,Radiation alone,38.0,66.0,30,2.2,N,N,supraglottic,1,LP/chemoRT,101.9333333,0.0
+192,57.6,II,Female,White/Caucasion,IC+Radiation alone,R,BOT,R3/4,Positive,Current,37,IV,II,N2,T3,IC+Radiation alone,45.0,70.0,33,2.12121212121212,N,Y,supraglottic,1,PLRT,102.7,0.0
+193,50.5416666666667,II,Female,White/Caucasion,Radiation alone,L,Tonsil,"L2, L3",Positive,Formar,3,IV,II,N2,T1,Radiation alone,37.0,66.0,30,2.2,N,N,supraglottic,0,LP/RT alone,103.4333333,0.0
+194,62.383333333333304,III,Male,Native American,IC+Radiation alone,L,BOT,"L2, L3",Positive,Never,0,IV,II,N2,T2,IC+Radiation alone,38.0,66.0,30,2.2,"Y, left (14L2&3 - all negative, 1L2&3 - extensive hyalinization and foreign body giant cell reaction consistent with marked therapy effect, no viable tumor present)",Y,supraglottic,0,LP/RT alone,103.9,0.0
+195,58.6833333333333,III,Male,White/Caucasion,IC+CC,R,BOT,"R2/3, R3",Positive,Never,0,IV,II,N2,T1,IC+CC,38.0,66.0,30,2.2,N,Y,supraglottic,1,PLRT,104.5666667,0.0
+196,59.622222222222206,II,Male,White/Caucasion,CC,L,NOS,L2,Positive,Never,0,IV,II,N2,T1,CC,37.0,66.0,30,2.2,N,N,glottic,0,PLRT,105.03333329999998,0.0
+197,56.5138888888889,NaN,Female,White/Caucasion,IC+CC,R,Tonsil,R2-R4,Positive,Never,0,IV,II,N2,T3,IC+CC,44.0,70.0,33,2.12121212121212,N,Y,glottic,0,LP/chemoRT,105.36666670000001,1.0
+198,52.5722222222222,NaN,Male,White/Caucasion,IC+CC,L,BOT,"L2, L3, R2, R3",Positive,Never,0,IV,III,N2,T4,IC+CC,44.0,70.0,33,2.12121212121212,N,N,supraglottic,0,LP/RT alone,105.86666670000001,1.0
+199,54.6805555555556,NaN,Male,White/Caucasion,IC+CC,R,BOT,"R RPLN, R2, R3",Positive,Never,0,IV,II,N2,T2,IC+CC,43.0,66.0,30,2.2,N,Y,supraglottic,0,LP/RT alone,105.9,0.0
+2,55.855555555555604,III,Female,White/Caucasion,CC,R,BOT,R2,Positive,Never,0,IV,II,N2,T2,CC,45.0,66.0,30,2.2,N,Y,glottic,0,PLRT,105.9,0.0
+20,56.936111111111096,III,Male,White/Caucasion,CC,L,Tonsil,"R2, L2",Positive,Formar,65,IV,II,N2,T3,CC,44.0,70.0,35,2.0,N,N,supraglottic,1,LP/chemoRT,108.36666670000001,1.0
+200,72.375,II,Male,White/Caucasion,CC,R,BOT,"R2, R3",Positive,Formar,6,IV,II,N2,T2,CC,-326.0,66.0,30,2.2,N,N,glottic,0,LP/chemoRT,108.46666670000002,0.0
+2000,72.175,III,Male,White/Caucasion,Radiation alone,Bilateral,BOT,NaN,Positive,Current,35,II,I,N0,T2,Radiation alone,38.0,66.0,30,2.2,N,N,supraglottic,0,LP/chemoRT,109.13333329999999,1.0
+2001,63.34722222222221,III,Male,White/Caucasion,CC,R,BOT,R2,Positive,Formar,NaN,III,I,N1,T1,CC,44.0,69.96,33,2.12,N,Y,supraglottic,1,LP/RT alone,109.4,0.0
+2002,42.2583333333333,III,Male,White/Caucasion,CC,Bilateral,BOT,"R2, L2, R3, R4",Positive,Current,30,IV,III,N0,T4,CC,48.0,69.96,33,2.12,"Y(L2, L3)",N,transglottic,1,LP/chemoRT,109.73333329999998,0.0
+2003,57.9222222222222,NaN,Male,White/Caucasion,IC+CC,L,BOT,"R RPLN, R2, L2, R3, L3",Positive,Never,0,IV,II,N2,T3,IC+CC,46.0,70.0,33,2.12121212121212,"Y(L2, L3, L4, L5)",Y,supraglottic,0,LP/chemoRT,110.06666670000001,0.0
+2004,45.9083333333333,III,Male,White/Caucasion,CC,R,BOT,"R2, R3",Positive,Formar,2,IV,III,N2,T4,CC,38.0,70.0,35,2.0,"Y(R2, R3)",N,supraglottic,0,PLRT,116.26666670000002,0.0
+2005,62.7361111111111,III,Male,White/Caucasion,CC,L,BOT,"L2, L3",Positive,Never,0,IV,II,N2,T2,CC,38.0,70.0,35,2.0,NaN,Y,supraglottic,0,PLRT,110.9,1.0
+2006,85.8972222222222,NaN,Male,White/Caucasion,Radiation alone,L,BOT,L2,Positive,Formar,27,IV,II,N2,T1,Radiation alone,41.0,66.0,30,2.2,NaN,N,supraglottic,1,LP/RT alone,112.0,0.0
+2007,67.1166666666667,III,Female,White/Caucasion,Radiation alone,L,Tonsil,L2,Positive,Formar,16,III,I,N1,T1,Radiation alone,41.0,66.0,30,2.2,NaN,Y,supraglottic,0,LP/chemoRT,112.73333329999998,1.0
+2008,46.1111111111111,NaN,Male,White/Caucasion,IC+CC,R,Tonsil,R2,Positive,Formar,2,IV,II,N2,T2,IC+CC,44.0,70.0,33,2.12121212121212,NaN,Y,supraglottic,0,LP/RT alone,113.06666670000001,0.0
+2009,61.586111111111094,III,Male,White/Caucasion,IC+CC,R,Tonsil,"R2, R3",Positive,Never,0,IV,II,N2,T2,IC+CC,44.0,69.96,33,2.12,"Y(R2a, R2b, R3, R4, R5b)",N,glottic,0,LP/chemoRT,115.8,1.0
+201,52.311111111111096,II,Male,White/Caucasion,CC,R,Tonsil,R2,Positive,Formar,10,III,II,N1,T3,CC,44.0,70.0,33,2.12121212121212,N,Y,supraglottic,0,LP/RT alone,117.2,0.0
+2010,72.425,III,Male,Asian,IC+Radiation alone,R,Tonsil,R2,Positive,Current,10,IV,II,N2,T2,IC+Radiation alone,18.0,33.0,15,2.2,NaN,N,supraglottic,1,LP/chemoRT,117.36666670000001,0.0
+2011,56.0138888888889,NaN,Male,White/Caucasion,IC+CC,R,Tonsil,R2,Positive,Formar,10,IV,II,N2,T2,IC+CC,44.0,70.0,33,2.12121212121212,NaN,Y,glottic,0,LP/chemoRT,117.56666670000001,1.0
+2012,60.22222222222221,III,Male,White/Caucasion,CC,R,BOT,"R2, R3, R4",Positive,Formar,NaN,IV,II,N2,T2,CC,38.0,69.0,33,2.09090909090909,NaN,Y,supraglottic,0,PLRT,118.56666670000001,1.0
+2013,57.769444444444396,II,Male,White/Caucasion,IC+CC,L,BOT,"R2, L2, L3",Positive,Never,0,IV,II,N2,T2,IC+CC,44.0,69.96,33,2.12,"Y(L2, L3, L4, L5)",Y,transglottic,0,LP/chemoRT,119.96666670000002,0.0
+2014,58.3583333333333,III,Male,White/Caucasion,Radiation alone,R,NOS,R2,Positive,Never,0,III,I,N1,T2,Radiation alone,37.0,68.9,33,2.08787878787879,NaN,N,transglottic,0,LP/RT alone,121.36666670000001,0.0
+2015,66.0472222222222,NaN,Male,White/Caucasion,CC,L,Tonsil,L2,Positive,Formar,4,IV,II,N2,T2,CC,44.0,70.0,33,2.12121212121212,NaN,Y,glottic,1,PLRT,122.03333329999998,1.0
+2016,54.377777777777794,NaN,Male,White/Caucasion,IC+Radiation alone,R,BOT,"R2, R3",Positive,Never,0,IV,II,N2,T1,IC+Radiation alone,44.0,69.96,33,2.12,NaN,Y,supraglottic,1,LP/chemoRT,122.73333329999998,1.0
+2017,67.8888888888889,III,Male,White/Caucasion,CC,R,BOT,NaN,Positive,Never,0,III,II,N0,T3,CC,45.0,70.0,33,2.12121212121212,NaN,Y,supraglottic,0,PLRT,125.33333329999999,0.0
+2018,62.366666666666696,NaN,Male,White/Caucasion,Radiation alone,L,BOT,L2,Positive,Never,0,IV,II,N2,T1,Radiation alone,44.0,70.0,33,2.12121212121212,NaN,N,supraglottic,1,LP/chemoRT,125.9,1.0
+2019,57.0916666666667,III,Male,White/Caucasion,IC+CC,L,BOT,"L RPLN, L2, L3",Positive,Never,0,IV,II,N2,T3,IC+CC,44.0,70.0,33,2.12121212121212,NaN,Y,supraglottic,1,LP/chemoRT,126.2,0.0
+202,56.09722222222221,III,Female,White/Caucasion,Radiation alone,R,Tonsil,"R2, R3",Positive,Never,0,IV,II,N2,T1,Radiation alone,39.0,66.0,30,2.2,N,N,transglottic,1,LP/chemoRT,135.6,0.0
+2020,76.6583333333333,II,Male,White/Caucasion,CC,L,Tonsil,"L2, L3",Positive,Never,0,IV,II,N2,T3,CC,43.0,70.0,33,2.12121212121212,NaN,Y,supraglottic,0,LP/RT alone,129.9,0.0
+2021,64.9416666666667,NaN,Male,White/Caucasion,CC,L,Tonsil,"L2, L3",Positive,Formar,10,IV,II,N2,T2,CC,49.0,70.0,35,2.0,NaN,Y,glottic,0,LP/chemoRT,131.6,1.0
+2022,51.0722222222222,II,Male,White/Caucasion,CC,R,Tonsil,R2,Positive,Formar,4,IV,II,N2,T3,CC,44.0,70.0,33,2.12121212121212,NaN,Y,supraglottic,0,PLRT,131.8333333,0.0
+2023,62.7944444444444,III,Male,White/Caucasion,Radiation alone,R,BOT,"R RPLN, R2",Positive,Current,40,IV,II,N2,Tis,Radiation alone,43.0,66.0,30,2.2,NaN,Y,supraglottic,0,LP/RT alone,131.9,0.0
+2024,56.3888888888889,III,Female,White/Caucasion,CC,R,Tonsil,R2,Positive,Formar,22,IV,II,N2,T1,CC,38.0,70.0,33,2.12121212121212,NaN,N,supraglottic,0,PLRT,132.36666670000002,1.0
+2025,51.84722222222221,II,Male,White/Caucasion,CC,L,BOT,NaN,Positive,Never,0,IV,II,N2,T2,CC,44.0,69.96,33,2.12,NaN,Y,supraglottic,1,PLRT,134.0666667,0.0
+2026,71.0944444444444,III,Male,White/Caucasion,CC,R,Tonsil,R2,Positive,Formar,50,IV,II,N2,T1,CC,38.0,69.96,33,2.12,NaN,N,supraglottic,0,LP/chemoRT,134.2666667,1.0
+2027,50.5666666666667,III,Male,White/Caucasion,Radiation alone,R,Tonsil,"R2, L2",Positive,Never,0,IV,II,N2,T2,Radiation alone,39.0,66.0,30,2.2,NaN,Y,supraglottic,0,LP/chemoRT,134.93333330000002,0.0
+2028,55.4333333333333,III,Male,White/Caucasion,CC,R,Tonsil,R2,Positive,Never,0,IV,II,N2,T2,CC,44.0,69.96,33,2.12,"Y(R2, R3, R4)",Y,glottic,0,PLRT,134.9666667,0.0
+2029,76.57222222222221,NaN,Male,NOS,CC,R,BOT,R2,Positive,Never,0,IV,II,N2,T1,CC,41.0,66.0,30,2.2,NaN,N,glottic,1,LP/RT alone,135.2333333,1.0
+203,40.7083333333333,II,Male,White/Caucasion,Radiation alone,L,Tonsil,"R RPLN, R2",Positive,Current,60,IV,III,N2,T4,Radiation alone,44.0,69.96,33,2.12,N,N,supraglottic,0,LP/RT alone,135.5,0.0
+2030,50.5361111111111,III,Male,White/Caucasion,CC,L,Soft palate,L2,Positive,Formar,16,III,I,N1,T2,CC,34.0,70.0,33,2.12121212121212,NaN,N,glottic,0,LP/chemoRT,135.7666667,0.0
+2031,74.6,II,Male,White/Caucasion,CC,R,NOS,R2,Negative,Never,0,IV,IV,N2,T2,CC,44.0,69.96,33,2.12,NaN,N,glottic,1,LP/RT alone,137.2666667,0.0
+2032,54.336111111111094,II,Male,White/Caucasion,CC,R,Tonsil,R2,Positive,Formar,NaN,IV,II,N2,T2,CC,44.0,70.0,33,2.12121212121212,NaN,Y,glottic,1,PLRT,140.93333330000002,0.0
+2033,51.377777777777794,II,Male,White/Caucasion,CC,L,Tonsil,"L1B, L2",Positive,Never,0,IV,II,N2,T2,CC,44.0,70.0,33,2.12121212121212,Y,Y,supraglottic,0,LP/chemoRT,141.1,0.0
+204,56.2944444444444,III,Male,White/Caucasion,CC,L,Tonsil,L2,Positive,Never,0,IV,II,N2,T2,CC,13.0,66.0,30,2.2,N,N,transglottic,0,PLRT,141.5333333,0.0
+205,48.6972222222222,III,Male,White/Caucasion,IC+CC,R,Tonsil,"R RPLN, R2, L2",Positive,Current,30,IV,III,N2,T4,IC+CC,44.0,70.0,33,2.12121212121212,N,Y,supraglottic,0,LP/RT alone,142.16666669999998,0.0
+206,65.0138888888889,NaN,Male,White/Caucasion,IC+Radiation alone,R,BOT,"R2, L2, L2/3",Positive,Formar,44,IV,II,N2,T1,IC+Radiation alone,39.0,66.0,30,2.2,N,Y,transglottic,0,PLRT,192.6333333,0.0
+207,53.105555555555604,NaN,Male,Hispanic/Latino,CC,R,Tonsil,R2,Positive,Formar,5,IV,II,N2,T2,CC,39.0,66.0,30,2.2,N,N,supraglottic,1,LP/RT alone,143.1333333,0.0
+208,59.2916666666667,NaN,Male,Hispanic/Latino,CC,L,BOT,"L1B, L2, L3",Positive,Formar,18,IV,II,N2,T1,CC,39.0,66.0,30,2.2,N,N,supraglottic,1,PLRT,144.7,0.0
+209,78.8361111111111,II,Male,Asian,CC,R,Tonsil,R2,Positive,Formar,8,IV,II,N2,T2,CC,38.0,70.0,33,2.12121212121212,"Y, right (4L2&3) (All negative)",Y,glottic,0,LP/chemoRT,146.4,0.0
+21,47.2944444444444,III,Male,White/Caucasion,CC,L,Tonsil,"L RPLN, R2, R3",Positive,Current,30,IV,III,N2,T4,CC,46.0,70.0,33,2.12121212121212,"Y (L2, L3)",Y,supraglottic,0,PLRT,146.5,0.0
+210,60.366666666666696,III,Female,African American/Black,Radiation alone,L,NOS,L2,Positive,Never,0,IV,II,N2,T1,Radiation alone,39.0,66.0,30,2.2,N,Y,supraglottic,0,PLRT,146.9666667,1.0
+211,63.3222222222222,II,Female,African American/Black,IC+CC,L,BOT,L2,Positive,Formar,22,IV,III,N2,T4,IC+CC,45.0,70.0,33,2.12121212121212,N,N,supraglottic,1,LP/RT alone,148.1,0.0
+212,49.025,III,Male,White/Caucasion,CC,R,Tonsil,L2,Positive,Current,30,IV,II,N2,T1,CC,39.0,66.0,30,2.2,N,Y,supraglottic,0,LP/chemoRT,148.5333333,1.0
+213,63.59722222222221,II,Male,White/Caucasion,CC,R,BOT,R2,Positive,Never,0,IV,II,N2,T1,CC,38.0,66.0,30,2.2,N,Y,supraglottic,0,PLRT,149.06666669999998,0.0
+214,50.811111111111096,III,Male,White/Caucasion,CC,R,Tonsil,R2,Positive,Never,0,IV,II,N2,T2,CC,39.0,66.0,30,2.2,N,N,transglottic,0,PLRT,151.2333333,0.0
+215,82.30555555555559,III,Male,White/Caucasion,CC,R,BOT,R2,Positive,Never,0,IV,II,N2,T3,CC,49.0,70.0,33,2.12121212121212,N,Y,supraglottic,0,LP/chemoRT,151.4,0.0
+216,56.5055555555556,II,Male,African American/Black,CC,L,Tonsil,"L2, L RPLN",Positive,Formar,15,IV,II,N2,T3,CC,44.0,70.0,33,2.12121212121212,N,Y,supraglottic,0,PLRT,153.06666669999998,0.0
+217,71.7222222222222,III,Male,White/Caucasion,CC,R,BOT,R2,Positive,Formar,30,III,I,N1,T2,CC,45.0,70.0,33,2.12121212121212,N,N,supraglottic,0,PLRT,154.0333333,0.0
+218,59.313888888888904,NaN,Male,White/Caucasion,IC+CC,R,Tonsil,"R2, R3, R4, R5A",Negative,Formar,20,IV,IV,N2,T3,IC+CC,45.0,70.0,33,2.12121212121212,N,Y,supraglottic,1,PLRT,217.6333333,0.0
+219,56.025,II,Male,White/Caucasion,Radiation alone,L,Tonsil,L2,Positive,Current,NaN,IV,II,N2,T1,Radiation alone,41.0,66.0,30,2.2,N,N,supraglottic,0,LP/chemoRT,156.0,0.0
+22,67.75,II,Female,White/Caucasion,CC,R,BOT,"R2, R3",Negative,Formar,15,IV,IV,N2,T2,CC,46.0,60.0,33,1.8181818181818201,N,N,supraglottic,1,PLRT,157.06666669999998,0.0
+220,48.0416666666667,III,Male,White/Caucasion,CC,R,BOT,R2,Positive,Never,0,III,I,N1,T2,CC,39.0,70.0,35,2.0,N,Y,supraglottic,1,PLRT,158.6333333,0.0
+221,37.4277777777778,NaN,Male,White/Caucasion,Radiation alone,R,Tonsil,R2,Positive,Formar,NaN,IV,II,N2,T1,Radiation alone,39.0,66.0,30,2.2,N,Y,supraglottic,0,LP/RT alone,162.5,0.0
+222,60.4555555555556,NaN,Male,White/Caucasion,CC,L,BOT,"L2, L2/3, L RPLN",Positive,Never,0,IV,II,N2,T2,CC,34.0,70.0,33,2.12121212121212,N,Y,transglottic,0,LP/chemoRT,163.6,0.0
+223,52.9305555555556,II,Male,White/Caucasion,CC,L,BOT,"R2, L2",Positive,Current,1,IV,II,N2,T1,CC,38.0,66.0,30,2.2,N,Y,supraglottic,0,LP/RT alone,164.6333333,0.0
+224,59.019444444444396,III,Male,White/Caucasion,CC,L,BOT,"L2, L2/3",Positive,Never,0,IV,II,N2,T1,CC,39.0,66.0,30,2.2,N,Y,glottic,1,LP/RT alone,165.6,0.0
+225,66.1638888888889,III,Male,Hispanic/Latino,IC+CC,L,BOT,"L2, L3, R2",Negative,Never,0,IV,IV,N2,T3,IC+CC,44.0,70.0,33,2.12121212121212,N,Y,supraglottic,1,LP/RT alone,166.7666667,0.0
+226,53.1694444444444,NaN,Male,White/Caucasion,CC,L,Tonsil,"L2,L3,L4,R2",Negative,Formar,30,IV,IV,N2,T1,CC,43.0,70.0,33,2.12121212121212,N,Y,supraglottic,0,PLRT,169.4666667,0.0
+227,56.4222222222222,III,Male,African American/Black,IC+CC,R,Tonsil,"R1A,R1B, R2, R3",Negative,Formar,30,IV,IV,N2,T3,IC+CC,48.0,70.0,33,2.12121212121212,N,Y,supraglottic,1,LP/chemoRT,173.1,0.0
+228,69.1805555555556,II,Male,White/Caucasion,CC,R,Tonsil,R2,Positive,Formar,10,III,I,N1,T2,CC,38.0,60.0,30,2.0,N,Y,supraglottic,0,LP/chemoRT,174.2666667,0.0
+229,69.4972222222222,NaN,Male,White/Caucasion,CC,L,Tonsil,"L1B, L2, L3",Positive,Formar,25,IV,II,N2,T3,CC,44.0,70.0,33,2.12121212121212,N,Y,supraglottic,0,LP/chemoRT,175.5333333,1.0
+23,54.7083333333333,NaN,Male,White/Caucasion,CC,L,BOT,"L2, R2",Positive,Current,1,IV,II,N2,T3,CC,45.0,70.0,35,2.0,"Y, left (14L2, 6L3) (All negative)",Y,glottic,1,LP/chemoRT,176.5,0.0
+230,69.1833333333333,III,Male,White/Caucasion,Radiation alone,L,Tonsil,L2,Positive,Formar,2,IV,II,N2,T1,Radiation alone,43.0,66.0,30,2.2,N,Y,transglottic,1,LP/chemoRT,177.6333333,0.0
+231,54.9833333333333,II,Male,White/Caucasion,CC,R,BOT,"R2/3, L3",Positive,Never,0,IV,II,N2,T2,CC,43.0,69.96,33,2.12,N,Y,glottic,2,LP/RT alone,177.8666667,0.0
+232,81.3833333333333,III,Male,White/Caucasion,CC,R,BOT,"R2, R3",Positive,Formar,18,III,I,N1,T2,CC,44.0,70.0,33,2.12121212121212,N,Y,glottic,1,PLRT,181.3666667,0.0
+233,52.727777777777796,II,Male,African American/Black,IC+CC,L,BOT,"L1B, L2, L3, L4",Negative,Current,50,IV,IV,N3,T4,IC+CC,44.0,70.0,33,2.12121212121212,N,N,supraglottic,0,PLRT,185.56666669999998,0.0
+234,56.5305555555556,III,Male,White/Caucasion,CC,L,Tonsil,L2,Positive,Current,NaN,IV,II,N2,T1,CC,39.0,66.0,30,2.2,N,Y,supraglottic,0,PLRT,187.7666667,0.0
+235,60.0833333333333,III,Male,White/Caucasion,CC,R,BOT,R2,Positive,Never,0,IV,II,N2,T1,CC,0.0,66.0,30,2.2,N,N,supraglottic,0,LP/RT alone,192.5,0.0
+236,44.84722222222221,NaN,Male,White/Caucasion,CC,L,BOT,L3,Positive,Never,0,IV,II,N2,T1,CC,37.0,66.0,30,2.2,N,Y,supraglottic,0,PLRT,193.8,0.0
+237,54.95,III,Male,White/Caucasion,Radiation alone,L,Tonsil,L2,Positive,Current,NaN,III,I,N1,T1,Radiation alone,44.0,70.0,33,2.12121212121212,N,Y,supraglottic,0,LP/RT alone,195.6,1.0
+238,68.5305555555556,NaN,Male,White/Caucasion,Radiation alone,R,BOT,R2,Positive,Never,0,III,I,N1,T1,Radiation alone,39.0,66.0,30,2.2,N,N,supraglottic,0,LP/chemoRT,198.9,0.0
+239,64.54444444444451,II,Female,Hispanic/Latino,Radiation alone,R,Tonsil,R2/3,Positive,Never,0,IV,NaN,N2,Tx,Radiation alone,39.0,66.0,30,2.2,N,Y,supraglottic,0,LP/chemoRT,202.1,0.0
+24,58.980555555555604,III,Male,White/Caucasion,CC,L,Tonsil,"L2, L RPLN",Negative,Formar,NaN,IV,IV,N2,T2,CC,41.0,72.0,40,1.8,N,Y,transglottic,0,LP/RT alone,207.8666667,1.0
+240,54.008333333333304,II,Male,White/Caucasion,CC,R,BOT,R2,Positive,Current,40,IV,II,N2,T1,CC,38.0,66.0,30,2.2,N,Y,glottic,0,PLRT,213.2333333,1.0
+241,61.2027777777778,III,Male,White/Caucasion,CC,R,BOT,R2,Positive,Never,0,IV,II,N2,T1,CC,39.0,66.0,30,2.2,N,Y,transglottic,0,PLRT,215.93333330000002,0.0
+242,51.525,II,Male,White/Caucasion,CC,L,BOT,L2,Positive,Current,15,III,I,N1,T1,CC,42.0,66.0,30,2.2,N,Y,transglottic,0,LP/RT alone,221.7333333,1.0
+243,55.9694444444444,NaN,Male,White/Caucasion,CC,R,BOT,L2,Positive,Never,0,III,I,N1,T2,CC,45.0,66.0,30,2.2,N,Y,supraglottic,0,PLRT,223.0333333,0.0
+244,78.0666666666667,I,Male,White/Caucasion,CC,L,BOT,L2,Positive,Formar,53,III,II,N1,T3,CC,44.0,70.0,33,2.12121212121212,N,N,supraglottic,0,LP/chemoRT,223.1,1.0
+245,68.8055555555556,II,Female,White/Caucasion,IC+CC,Bilateral,NOS,"R2, R3, R4, L2, L3, L4",Negative,Current,40,IV,IV,N2,T4,IC+CC,45.0,66.0,33,2.0,N,N,supraglottic,1,PLRT,227.1,0.0
+246,67.7083333333333,II,Female,White/Caucasion,IC+CC,L,Tonsil,"L2, L3",Negative,Formar,15,IV,IV,N2,T4,IC+CC,15.0,70.0,30,2.3333333333333304,N,N,supraglottic,1,LP/RT alone,229.93333330000002,0.0
+247,76.175,III,Male,White/Caucasion,CC,R,BOT,"R2, L2",Positive,Never,0,IV,II,N2,T2,CC,45.0,70.0,33,2.12121212121212,N,N,supraglottic,1,LP/chemoRT,235.4,0.0
+248,48.377777777777794,II,Female,White/Caucasion,Radiation alone,L,BOT,"L2, L3",Positive,Never,0,III,I,N1,T1,Radiation alone,37.0,66.0,30,2.2,N,Y,supraglottic,0,PLRT,236.2,0.0
+249,56.313888888888904,III,Male,White/Caucasion,CC,R,Tonsil,R2,Positive,Never,0,IV,II,N2,T2,CC,45.0,70.0,33,2.12121212121212,N,Y,supraglottic,0,PLRT,237.66666669999998,0.0
+25,67.175,III,Male,White/Caucasion,CC,L,Tonsil,"L2, L RPLN",Positive,Current,50,IV,II,N2,T2,CC,41.0,66.0,30,2.2,"Y, left (14L2, 10L3, 3L4) (All negative)",Y,glottic,0,LP/chemoRT,260.7666667,0.0
+250,88.4722222222222,III,Male,White/Caucasion,CC,R,Tonsil,"L2,L3, R2",Negative,Formar,52,IV,IV,N2,T4,CC,34.0,66.0,33,2.0,N,N,transglottic,1,PLRT,263.1,0.0
+251,52.0944444444444,NaN,Male,White/Caucasion,CC,L,Tonsil,L2,Positive,Never,0,III,I,N1,T1,CC,39.0,66.0,30,2.2,N,Y,transglottic,0,LP/chemoRT,263.6333333,1.0
+252,72.4666666666667,III,Male,White/Caucasion,CC,L,GPS,L2,Positive,Never,0,III,I,N1,T2,CC,43.0,70.0,33,2.12121212121212,"Y, left (12L2&3) (All negative)",Y,glottic,0,LP/chemoRT,264.53333330000004,1.0
+253,65.05277777777779,II,Male,White/Caucasion,IC+CC,R,Tonsil,R2,Positive,Current,95,IV,III,N2,T4,IC+CC,44.0,70.0,33,2.12121212121212,"Y/LEFT LEVEL IIA,III,IV, ALL NEGATIVE",N,supraglottic,0,LP/RT alone,280.0,0.0
+254,43.65277777777779,III,Male,White/Caucasion,CC,L,Tonsil,"L2, L3",Positive,Current,NaN,IV,II,N2,T2,CC,39.0,66.0,30,2.2,N,Y,transglottic,0,PLRT,287.96666669999996,1.0
+255,54.875,II,Male,Asian,Radiation alone,L,Tonsil,"L2, L3",Positive,Never,0,IV,II,N2,T3,Radiation alone,44.0,70.0,33,2.12121212121212,N,Y,glottic,0,PLRT,288.2,1.0
+256,65.2333333333333,III,Male,White/Caucasion,CC,R,Tonsil,R2,Positive,Never,0,III,I,N1,T2,CC,44.0,70.0,33,2.12121212121212,N,Y,transglottic,1,PLRT,293.0666667,1.0
+257,70.54444444444451,III,Male,White/Caucasion,CC,L,BOT,L2,Positive,Never,0,IV,II,N2,T2,CC,43.0,70.0,33,2.12121212121212,N,Y,supraglottic,1,PLRT,296.7,1.0
+258,57.1583333333333,II,Female,African American/Black,Radiation alone,L,BOT,"L3, L4",Positive,Current,18,IV,II,N2,T1,Radiation alone,39.0,66.0,30,2.2,N,N,glottic,0,PLRT,307.0666667,1.0
+259,56.475,II,Male,White/Caucasion,CC,L,Tonsil,"L2, LRPLN",Positive,Formar,NaN,IV,II,N2,T2,CC,44.0,70.0,33,2.12121212121212,N,Y,transglottic,Restricted in physically strenuous activity but ambulatory a,PLRT,15.1,0.0
+26,51.175,NaN,Male,White/Caucasion,CC,R,BOT,"R2, R4, L2",Positive,Current,32,IV,II,N2,T3,CC,45.0,70.0,35,2.0,N,N,supraglottic,Ambulatory and capable of all selfcare but unable to carry o,PLRT,5.7,0.0
+260,46.1555555555556,III,Male,White/Caucasion,IC+CC,L,Tonsil,"R RPLN, R1B, R2, L3",Negative,Current,19,IV,IV,N2,T4,IC+CC,42.0,70.0,33,2.12121212121212,N,Y,transglottic,Restricted in physically strenuous activity but ambulatory a,PLRT,8.7,0.0
+261,49.0472222222222,II,Male,White/Caucasion,Radiation alone,R,GPS,"R2, R3",Positive,Formar,6,IV,II,N2,T1,Radiation alone,38.0,66.0,30,2.2,N,Y,supraglottic,"Fully active, able to carry on all pre-disease performance w",PLRT,9.6,0.0
+262,59.4194444444444,III,Female,White/Caucasion,CC,R,Tonsil,"R2, R RPLN",Negative,Formar,35,IV,IV,N2,T3,CC,43.0,70.0,33,2.12121212121212,N,Y,supraglottic,Restricted in physically strenuous activity but ambulatory a,PLRT,24.03333333,0.0
+263,65.5777777777778,III,Male,White/Caucasion,CC,L,BOT,L2,Positive,Never,0,IV,II,N2,T1,CC,38.0,66.0,30,2.2,N,Y,glottic,Restricted in physically strenuous activity but ambulatory a,LP/chemoRT,10.06666667,1.0
+264,42.6194444444444,III,Male,White/Caucasion,CC,L,Tonsil,L2,Positive,Never,0,IV,II,N2,T2,CC,44.0,70.0,33,2.12121212121212,N,Y,glottic,Restricted in physically strenuous activity but ambulatory a,PLRT,6.5,0.0
+265,46.5527777777778,III,Female,White/Caucasion,CC,R,Tonsil,"R2, R3",Positive,Never,0,III,II,N1,T3,CC,44.0,70.0,33,2.12121212121212,N,N,transglottic,"Fully active, able to carry on all pre-disease performance w",PLRT,6.8666666670000005,0.0
+266,69.2416666666667,II,Male,White/Caucasion,CC,L,BOT,L2,Positive,Current,8,IV,II,N2,T2,CC,42.0,70.0,33,2.12121212121212,N,Y,supraglottic,Restricted in physically strenuous activity but ambulatory a,PLRT,7.066666667000001,0.0
+267,53.2083333333333,III,Male,White/Caucasion,CC,R,BOT,"R2, R3",Positive,Formar,12,III,I,N1,T2,CC,39.0,66.0,30,2.2,N,Y,transglottic,"Fully active, able to carry on all pre-disease performance w",LP/RT alone,7.2,0.0
+268,61.65277777777779,III,Male,White/Caucasion,CC,R,BOT,R2,Positive,Never,0,IV,II,N2,T2,CC,42.0,66.0,30,2.2,N,Y,transglottic,"Fully active, able to carry on all pre-disease performance w",PLRT,7.2,1.0
+269,49.413888888888906,III,Male,White/Caucasion,Radiation alone,R,BOT,R2,Positive,Formar,5,IV,II,N2,T1,Radiation alone,39.0,66.0,30,2.2,N,Y,supraglottic,"Fully active, able to carry on all pre-disease performance w",LP/chemoRT,22.96666667,0.0
+27,55.2,III,Male,White/Caucasion,IC+Radiation alone,R,Tonsil,"R2, R3",Positive,Formar,18,IV,II,N2,T2,IC+Radiation alone,38.0,66.0,30,2.2,N,Y,supraglottic,Restricted in physically strenuous activity but ambulatory a,PLRT,7.8,0.0
+270,41.622222222222206,III,Male,White/Caucasion,CC,R,Tonsil,R2,Negative,Current,24,IV,IV,N2,T2,CC,45.0,70.0,35,2.0,N,Y,transglottic,"Fully active, able to carry on all pre-disease performance w",PLRT,12.0,0.0
+271,51.1722222222222,III,Male,White/Caucasion,CC,L,BOT,L2,Positive,Never,0,IV,II,N2,T2,CC,39.0,70.0,33,2.12121212121212,N,Y,subglottic,"Fully active, able to carry on all pre-disease performance w",LP/chemoRT,150.6,1.0
+272,60.40277777777779,III,Male,White/Caucasion,CC,R,Tonsil,R2,Positive,Never,0,IV,II,N2,T3,CC,44.0,70.0,33,2.12121212121212,N,Y,supraglottic,"Fully active, able to carry on all pre-disease performance w",PLRT,14.23333333,0.0
+273,56.25,III,Male,White/Caucasion,CC,R,BOT,"R2, L3",Positive,Current,40,IV,II,N2,T2,CC,48.0,70.0,33,2.12121212121212,N,Y,supraglottic,Restricted in physically strenuous activity but ambulatory a,LP/chemoRT,48.43333333,0.0
+274,45.352777777777796,II,Male,White/Caucasion,CC,R,BOT,R2,Positive,Current,20,IV,II,N2,T2,CC,44.0,66.0,30,2.2,N,Y,supraglottic,Restricted in physically strenuous activity but ambulatory a,LP/chemoRT,53.23333333,0.0
+275,54.725,III,Male,Hispanic/Latino,CC,L,Tonsil,L2,Positive,Formar,32,IV,II,N2,T3,CC,45.0,70.0,33,2.12121212121212,N,Y,supraglottic,"Fully active, able to carry on all pre-disease performance w",LP/RT alone,24.63333333,0.0
+276,68.8555555555556,NaN,Female,White/Caucasion,CC,R,BOT,"R2, L2",Positive,Never,0,IV,II,N2,T2,CC,44.0,70.0,33,2.12121212121212,N,N,transglottic,"Fully active, able to carry on all pre-disease performance w",PLRT,15.06666667,0.0
+277,83.7194444444444,NaN,Male,White/Caucasion,Radiation alone,R,Tonsil,R2,Positive,Never,0,III,I,N1,T1,Radiation alone,44.0,70.0,33,2.12121212121212,N,N,supraglottic,"Fully active, able to carry on all pre-disease performance w",PLRT,20.13333333,0.0
+278,75.4638888888889,III,Male,White/Caucasion,CC,L,BOT,L2,Positive,Formar,5,IV,II,N2,T1,CC,39.0,66.0,30,2.2,N,Y,supraglottic,Restricted in physically strenuous activity but ambulatory a,LP/chemoRT,19.4,0.0
+279,69.8166666666667,III,Male,Hispanic/Latino,IC+CC,L,Tonsil,"L2, L3, L4, L5A",Positive,Never,0,IV,II,N2,T2,IC+CC,44.0,70.0,33,2.12121212121212,"LEVEL I,6NODES/LEVEL II,3 NODES/LEVEL III,7/LEVEL IV,4(ALL NEGATIVE) /LEVEL V,4 NODES, I POSITIVE",N,transglottic,Restricted in physically strenuous activity but ambulatory a,PLRT,11.2,0.0
+28,72.3888888888889,III,Male,White/Caucasion,CC,L,Tonsil,"L1B, L2, L3, R3, R4",Positive,Formar,NaN,IV,III,N2,T4,CC,45.0,70.0,35,2.0,N,N,supraglottic,Restricted in physically strenuous activity but ambulatory a,LP/chemoRT,9.333333332999999,1.0
+280,52.0694444444444,II,Male,White/Caucasion,Radiation alone,L,BOT,"L2, L3",Positive,Formar,NaN,IV,II,N2,T1,Radiation alone,39.0,66.0,30,2.2,N,Y,transglottic,Ambulatory and capable of all selfcare but unable to carry o,LP/RT alone,11.6,0.0
+281,66.4361111111111,III,Male,White/Caucasion,CC,R,BOT,R2,Negative,Never,0,IV,IV,N2,T2,CC,45.0,70.0,33,2.12121212121212,N,N,glottic,"Fully active, able to carry on all pre-disease performance w",PLRT,11.96666667,0.0
+282,54.352777777777796,III,Male,White/Caucasion,CC,L,BOT,"L2, L3, R2",Positive,Never,0,IV,II,N2,T3,CC,44.0,70.0,33,2.12121212121212,N,Y,supraglottic,"Fully active, able to carry on all pre-disease performance w",PLRT,12.7,0.0
+283,56.561111111111096,II,Male,African American/Black,IC+CC,Bilateral,NOS,"R2, R3, R4, R5A, L2, L3",Negative,Never,0,IV,IV,N2,T4,IC+CC,48.0,70.0,35,2.0,N,N,glottic,"Fully active, able to carry on all pre-disease performance w",LP/chemoRT,154.5333333,1.0
+284,52.6555555555556,NaN,Male,White/Caucasion,CC,L,BOT,L2,Positive,Formar,1,IV,II,N2,T1,CC,44.0,70.0,33,2.12121212121212,"Y, left (6L2b, 23L2a-3) (All negative)",Y,glottic,Restricted in physically strenuous activity but ambulatory a,PLRT,10.26666667,1.0
+285,71.66944444444451,III,Female,White/Caucasion,CC,R,Tonsil,"R2, L2",Positive,Never,0,IV,II,N2,T2,CC,46.0,70.0,33,2.12121212121212,N,N,supraglottic,Restricted in physically strenuous activity but ambulatory a,PLRT,10.33333333,0.0
+286,60.85,III,Male,White/Caucasion,CC,L,BOT,L2,Positive,Current,NaN,IV,II,N2,T2,CC,39.0,66.0,30,2.2,N,Y,glottic,"Fully active, able to carry on all pre-disease performance w",PLRT,10.53333333,1.0
+287,66.1333333333333,II,Male,White/Caucasion,Radiation alone,R,BOT,"R2, R3",Positive,Formar,8,IV,II,N2,T1,Radiation alone,39.0,70.0,33,2.12121212121212,N,Y,supraglottic,Restricted in physically strenuous activity but ambulatory a,LP/chemoRT,10.76666667,0.0
+288,69.9305555555556,II,Female,White/Caucasion,CC,Bilateral,BOT,"L2, L3, R2, R3",Positive,Current,35,IV,III,N2,T4,CC,45.0,70.0,33,2.12121212121212,N,N,supraglottic,Restricted in physically strenuous activity but ambulatory a,LP/chemoRT,25.03333333,0.0
+289,63.775,II,Female,White/Caucasion,CC,R,BOT,"L3, R3, R4",Negative,Formar,6,IV,IV,N2,T4,CC,49.0,70.0,33,2.12121212121212,N,N,supraglottic,"Fully active, able to carry on all pre-disease performance w",PLRT,11.53333333,0.0
+29,73.3277777777778,III,Male,Hispanic/Latino,Radiation alone,R,BOT,R2,Positive,Never,0,IV,II,N2,T2,Radiation alone,43.0,66.0,30,2.2,N,Y,transglottic,Restricted in physically strenuous activity but ambulatory a,LP/RT alone,11.9,0.0
+3,60.22222222222221,II,Female,White/Caucasion,CC,L,Tonsil,"L2, L3",Positive,Never,0,IV,II,N2,T2,CC,54.0,70.0,33,2.12121212121212,N,N,supraglottic,Restricted in physically strenuous activity but ambulatory a,PLRT,11.93333333,0.0
+30,53.8444444444444,II,Male,White/Caucasion,CC,R,Tonsil,R2,Positive,Formar,0,IV,II,N2,T2,CC,41.0,66.0,33,2.0,11/14/08 right paratracheal lymph node desection and right neck disection level IIB and on 5/7/09 left neck level IB,Y,supraglottic,Ambulatory and capable of all selfcare but unable to carry o,PLRT,20.9,0.0
+31,71.8944444444444,III,Male,White/Caucasion,Radiation alone,L,Tonsil,"L1B, L2",Positive,Current,25,IV,II,N2,T1,Radiation alone,40.0,66.0,30,2.2,N,Y,supraglottic,Ambulatory and capable of all selfcare but unable to carry o,PLRT,12.46666667,1.0
+32,73.9416666666667,NaN,Male,White/Caucasion,IC+Radiation alone,L,BOT,"L2, R3",Positive,Formar,19,IV,II,N2,T2,IC+Radiation alone,12.0,66.0,30,2.2,N,Y,supraglottic,Restricted in physically strenuous activity but ambulatory a,PLRT,12.9,0.0
+33,52.77777777777779,III,Male,White/Caucasion,IC+CC,L,Tonsil,"L1B, L2, L3, L4, L5A, L5B, L RPLN, R2",Negative,Current,62,IV,IV,N2,T1,IC+CC,42.0,66.0,30,2.2,"Y/LEVEL II,III,5LNS,NEGATIVE",N,supraglottic,Restricted in physically strenuous activity but ambulatory a,PLRT,29.66666667,0.0
+34,52.4194444444444,NaN,Male,White/Caucasion,CC,R,Tonsil,R2,Positive,Formar,1,IV,II,N2,T2,CC,38.0,66.0,30,2.2,N,Y,supraglottic,Restricted in physically strenuous activity but ambulatory a,PLRT,13.1,0.0
+35,65.94722222222221,III,Male,White/Caucasion,CC,L,BOT,L2,Positive,Never,0,IV,II,N2,T3,CC,38.0,70.0,35,2.0,N,Y,glottic,Restricted in physically strenuous activity but ambulatory a,PLRT,15.3,0.0
+36,51.4694444444444,III,Male,White/Caucasion,CC,L,BOT,L2,Positive,Never,0,IV,II,N2,T1,CC,42.0,66.0,33,2.0,N,Y,supraglottic,Restricted in physically strenuous activity but ambulatory a,LP/chemoRT,64.06666667,0.0
+37,46.6611111111111,III,Male,White/Caucasion,CC,L,BOT,"L1A, L2",Positive,Never,0,IV,III,N2,T4,CC,38.0,70.0,35,2.0,N,N,glottic,Restricted in physically strenuous activity but ambulatory a,PLRT,13.36666667,0.0
+38,45.1916666666667,NaN,Male,White/Caucasion,CC,R,BOT,"L2, L RPLN",Positive,Current,50,IV,III,N2,T4,CC,41.0,70.0,35,2.0,N,Y,glottic,"Fully active, able to carry on all pre-disease performance w",PLRT,13.36666667,0.0
+39,57.0694444444444,NaN,Male,White/Caucasion,IC+CC,R,BOT,"R2, R3",Negative,Formar,50,IV,IV,N2,T3,IC+CC,44.0,60.0,33,1.8181818181818201,"Y/RBOT,LEVEL II,III,ALL NEGATIVE",Y,supraglottic,"Fully active, able to carry on all pre-disease performance w",PLRT,13.76666667,1.0
+4,66.3444444444444,III,Male,White/Caucasion,CC,R,BOT,R2,Positive,Never,0,III,I,N1,T1,CC,39.0,66.0,30,2.2,N,N,supraglottic,Restricted in physically strenuous activity but ambulatory a,LP/chemoRT,14.03333333,0.0
+40,53.1916666666667,III,Male,White/Caucasion,Radiation alone,L,BOT,L2,Positive,Current,27,IV,II,N2,T1,Radiation alone,39.0,66.0,30,2.2,"Y, left (1L2, 3L3) (All negative except 1 level 2)",Y,transglottic,"Fully active, able to carry on all pre-disease performance w",PLRT,14.46666667,0.0
+41,51.144444444444396,NaN,Male,White/Caucasion,CC,R,BOT,R2,Positive,Current,1,IV,II,N2,T2,CC,47.0,70.0,33,2.12121212121212,Y,Y,supraglottic,"Fully active, able to carry on all pre-disease performance w",PLRT,15.1,0.0
+42,53.7388888888889,III,Male,White/Caucasion,CC,R,Tonsil,R2,Positive,Never,0,IV,II,N2,T2,CC,39.0,57.0,30,1.9,"Y, right (9L2) (All negative)",Y,supraglottic,Ambulatory and capable of all selfcare but unable to carry o,PLRT,15.43333333,0.0
+43,56.5555555555556,II,Male,White/Caucasion,CC,R,BOT,R2,Positive,Never,0,III,I,N1,T2,CC,43.0,72.0,40,1.8,"Y, left (2L2, 13L3 through 5, 1L anterior jugular) (All negative except 1L3-5)",Y,transglottic,Ambulatory and capable of all selfcare but unable to carry o,LP/chemoRT,15.46666667,0.0
+44,51.586111111111094,III,Male,White/Caucasion,CC,L,NOS,"L2, L3",Positive,Never,0,IV,II,N2,T2,CC,42.0,66.0,30,2.2,N,N,supraglottic,Restricted in physically strenuous activity but ambulatory a,LP/chemoRT,15.46666667,0.0
+45,45.7055555555556,II,Male,White/Caucasion,IC+CC,L,Tonsil,"R2, R3, R4, R5A, R5B",Positive,Never,0,IV,II,N2,T2,IC+CC,43.0,72.0,40,1.8,"Y/LEFT LEVEL II,III BOTH NEGATIVE/ LEVEL IV,V BOTH POSITIVE",N,glottic,"Fully active, able to carry on all pre-disease performance w",LP/chemoRT,206.93333330000002,0.0
+46,58.0166666666667,NaN,Female,White/Caucasion,IC+Radiation alone,L,Tonsil,L2,Positive,Never,0,IV,II,N2,T2,IC+Radiation alone,41.0,66.0,30,2.2,N,Y,supraglottic,Restricted in physically strenuous activity but ambulatory a,PLRT,24.03333333,0.0
+47,49.5416666666667,II,Male,White/Caucasion,CC,L,BOT,"L2, L3",Positive,Formar,NaN,IV,III,N2,T4,CC,43.0,70.0,33,2.12121212121212,N,N,glottic,Ambulatory and capable of all selfcare but unable to carry o,PLRT,16.13333333,0.0
+48,58.1083333333333,II,Male,White/Caucasion,IC+CC,L,BOT,"L1B, L2, L3, R1B, R2",Positive,Current,39,IV,II,N2,T3,IC+CC,44.0,70.0,33,2.12121212121212,N,Y,supraglottic,Restricted in physically strenuous activity but ambulatory a,PLRT,16.2,0.0
+49,58.1111111111111,NaN,Male,White/Caucasion,CC,L,BOT,L2,Positive,Formar,5,IV,II,N2,T2,CC,38.0,72.0,40,1.8,N,Y,supraglottic,Restricted in physically strenuous activity but ambulatory a,LP/chemoRT,16.7,1.0
+5,49.7333333333333,II,Male,White/Caucasion,CC,R,BOT,R3,Positive,Never,0,IV,III,N2,T4,CC,44.0,69.96,33,2.12,"Y/RLEVEL2,3/ALL NEGATIVE",N,supraglottic,Restricted in physically strenuous activity but ambulatory a,PLRT,16.83333333,0.0
+50,44.4222222222222,III,Female,White/Caucasion,CC,R,Tonsil,R2,Positive,Never,0,IV,II,N2,T1,CC,42.0,66.0,30,2.2,"Y, right (7L1, all negative ) (12L2&3, 11 of 12 negative) [second neck dissection on 4/30/2009]",N,transglottic,Ambulatory and capable of all selfcare but unable to carry o,PLRT,16.96666667,0.0
+5000,53.65277777777779,II,Male,White/Caucasion,CC,L,BOT,L2/3,Positive,Formar,3,IV,II,N2,T3,CC,43.0,69.3,33,2.1,N,Y,supraglottic,"Capable of only limited selfcare, confined to bed or chair m",PLRT,17.16666667,0.0
+5001,71.2972222222222,II,Male,African American/Black,CC,L,NOS,NaN,Negative,Formar,19,II,II,N0,T2,CC,45.0,70.0,33,2.12121212121212,N,N,supraglottic,"Fully active, able to carry on all pre-disease performance w",LP/chemoRT,30.56666667,0.0
+5002,69.1166666666667,III,Male,White/Caucasion,IC+CC,R,Tonsil,"R2, R3, L2, L3",Positive,Never,0,IV,III,N2,T4,IC+CC,44.0,69.96,33,2.12,N,Y,glottic,"Fully active, able to carry on all pre-disease performance w",PLRT,18.86666667,0.0
+5003,47.311111111111096,NaN,Male,White/Caucasion,CC,L,BOT,"L2, L3",Negative,Never,0,IV,IV,N2,T2,CC,39.0,66.0,33,2.0,N,Y,glottic,"Fully active, able to carry on all pre-disease performance w",PLRT,17.66666667,0.0
+5004,62.0305555555556,II,Female,White/Caucasion,CC,L,Tonsil,L RPLN,Positive,Current,48,III,I,N1,T2,CC,43.0,66.0,30,2.2,Y,N,transglottic,"Fully active, able to carry on all pre-disease performance w",PLRT,28.1,0.0
+5005,53.938888888888904,III,Male,White/Caucasion,CC,L,Tonsil,"L2/3, R2",Positive,Formar,NaN,IV,II,N2,T3,CC,37.0,70.0,35,2.0,N,Y,supraglottic,Restricted in physically strenuous activity but ambulatory a,LP/chemoRT,19.83333333,0.0
+5006,63.6361111111111,III,Male,African American/Black,CC,R,Tonsil,R2,Positive,Formar,3,IV,II,N2,T2,CC,42.0,70.0,35,2.0,N,Y,supraglottic,Restricted in physically strenuous activity but ambulatory a,PLRT,19.96666667,0.0
+5007,69.075,III,Male,White/Caucasion,IC+Radiation alone,R,BOT,"R2, R3, R RPLN",Positive,Never,0,IV,II,N2,T2,IC+Radiation alone,36.0,69.96,33,2.12,N,N,supraglottic,Restricted in physically strenuous activity but ambulatory a,PLRT,20.26666667,0.0
+5008,60.125,IV,Male,White/Caucasion,CC,R,NOS,"R2, R3, R4",Positive,Never,0,IV,II,N2,T2,CC,44.0,70.0,33,2.12121212121212,N,Y,subglottic,Ambulatory and capable of all selfcare but unable to carry o,PLRT,20.46666667,0.0
+5009,59.961111111111094,NaN,Male,White/Caucasion,CC,L,BOT,"L2, L3",Positive,Never,0,IV,II,N2,T2,CC,44.0,70.0,33,2.12121212121212,N,N,supraglottic,"Fully active, able to carry on all pre-disease performance w",PLRT,20.5,0.0
+5010,50.2055555555556,III,Female,White/Caucasion,CC,L,BOT,L2,Positive,Current,27,IV,II,N2,T1,CC,45.0,66.0,30,2.2,N,N,supraglottic,Restricted in physically strenuous activity but ambulatory a,PLRT,20.53333333,0.0
+5011,61.09722222222221,III,Male,White/Caucasion,CC,R,BOT,"R2, R3",Positive,Never,0,IV,II,N2,T2,CC,38.0,70.0,35,2.0,N,N,supraglottic,"Fully active, able to carry on all pre-disease performance w",PLRT,36.3,0.0
+5012,44.4083333333333,III,Male,White/Caucasion,Radiation alone,L,Tonsil,L2,Positive,Formar,1,III,I,N1,T1,Radiation alone,44.0,69.96,33,2.12,N,Y,supraglottic,Ambulatory and capable of all selfcare but unable to carry o,PLRT,22.2,0.0
+5013,63.477777777777796,NaN,Male,White/Caucasion,CC,L,Tonsil,"L2, L3",Positive,Current,38,IV,II,N2,T1,CC,41.0,66.0,33,2.0,N,Y,glottic,Restricted in physically strenuous activity but ambulatory a,PLRT,23.13333333,0.0
+5014,58.038888888888906,III,Male,White/Caucasion,IC+Radiation alone,R,BOT,"R2, R3",Positive,Never,0,IV,II,N2,T2,IC+Radiation alone,44.0,70.0,33,2.12121212121212,N,Y,supraglottic,Restricted in physically strenuous activity but ambulatory a,LP/chemoRT,24.3,0.0
+5015,74.0944444444444,II,Male,White/Caucasion,CC,R,BOT,"R1B, R2, L1B, L2",Positive,Never,0,IV,II,N2,T3,CC,42.0,70.0,33,2.12121212121212,N,Y,supraglottic,Restricted in physically strenuous activity but ambulatory a,LP/chemoRT,24.33333333,1.0
+5016,68.9833333333333,III,Male,White/Caucasion,CC,L,Tonsil,"R2, L2, L5A",Positive,Formar,19,IV,II,N2,T2,CC,44.0,69.96,33,2.12,N,Y,transglottic,"Fully active, able to carry on all pre-disease performance w",PLRT,24.4,0.0
+5017,56.5361111111111,III,Male,White/Caucasion,IC+CC,L,Tonsil,"R2, L2, L3",Positive,Current,19,IV,III,N2,T4,IC+CC,46.0,70.0,35,2.0,N,N,supraglottic,Restricted in physically strenuous activity but ambulatory a,PLRT,25.36666667,0.0
+5018,63.2861111111111,NaN,Male,White/Caucasion,IC+CC,R,BOT,"R2, R3, L2",Positive,Current,14,IV,II,N2,T3,IC+CC,44.0,70.0,33,2.12121212121212,N,N,transglottic,Restricted in physically strenuous activity but ambulatory a,LP/chemoRT,25.36666667,0.0
+5019,50.5,III,Male,White/Caucasion,IC+Radiation alone,L,Tonsil,"L2/3, L RPLN",Positive,Formar,3,IV,II,N2,T1,IC+Radiation alone,39.0,66.0,30,2.2,N,N,supraglottic,"Fully active, able to carry on all pre-disease performance w",PLRT,35.6,0.0
+5020,59.225,NaN,Male,White/Caucasion,CC,L,BOT,"R2, R3, L2, L3",Positive,Current,17,IV,II,N2,T3,CC,44.0,70.0,33,2.12121212121212,N,N,supraglottic,"Fully active, able to carry on all pre-disease performance w",PLRT,25.5,0.0
+5021,46.730555555555604,II,Male,White/Caucasion,IC+Radiation alone,L,Tonsil,L2,Positive,Never,0,IV,II,N2,T1,IC+Radiation alone,39.0,70.0,33,2.12121212121212,Y,Y,supraglottic,"Fully active, able to carry on all pre-disease performance w",PLRT,26.3,0.0
+5022,70.05,III,Male,White/Caucasion,Radiation alone,R,BOT,R2,Positive,Formar,57,IV,II,N2,T1,Radiation alone,39.0,66.0,30,2.2,N,N,supraglottic,Restricted in physically strenuous activity but ambulatory a,PLRT,26.56666667,1.0
+5023,57.4305555555556,III,Male,White/Caucasion,IC+CC,L,BOT,"R2, L2",Positive,Formar,30,IV,II,N2,T2,IC+CC,46.0,70.0,33,2.12121212121212,N,N,supraglottic,Ambulatory and capable of all selfcare but unable to carry o,LP/chemoRT,28.5,0.0
+5024,73.7083333333333,III,Male,White/Caucasion,Radiation alone,R,BOT,NaN,Positive,Formar,70,II,I,N0,T2,Radiation alone,38.0,70.0,35,2.0,N,N,supraglottic,Restricted in physically strenuous activity but ambulatory a,LP/chemoRT,26.8,0.0
+5025,75.6666666666667,III,Female,White/Caucasion,CC,R,Tonsil,R2,Positive,Never,0,IV,II,N2,T3,CC,39.0,69.3,33,2.1,N,Y,glottic,Restricted in physically strenuous activity but ambulatory a,LP/chemoRT,99.96666667,1.0
+5026,64.5222222222222,III,Male,Asian,IC+Radiation alone,L,BOT,"L2, R2",Positive,Formar,14,IV,II,N2,T2,IC+Radiation alone,39.0,66.0,30,2.2,N,Y,glottic,"Fully active, able to carry on all pre-disease performance w",LP/chemoRT,31.2,0.0
+5027,69.5583333333333,NaN,Male,White/Caucasion,IC+CC,R,BOT,"R3, R4",Positive,Formar,1,IV,III,N3,T1,IC+CC,38.0,66.0,30,2.2,N,N,supraglottic,"Fully active, able to carry on all pre-disease performance w",PLRT,47.0,0.0
+5028,54.522222222222204,III,Male,White/Caucasion,CC,R,BOT,"R2, R3",Positive,Formar,2,IV,II,N2,T3,CC,38.0,70.0,33,2.12121212121212,N,N,glottic,Ambulatory and capable of all selfcare but unable to carry o,PLRT,32.0,1.0
+5029,48.241666666666696,III,Female,White/Caucasion,IC+Radiation alone,R,Tonsil,"R2, L2",Positive,Current,3,IV,II,N2,T2,IC+Radiation alone,43.0,66.0,30,2.2,N,Y,supraglottic,Restricted in physically strenuous activity but ambulatory a,PLRT,32.4,0.0
+5030,65.9361111111111,III,Male,White/Caucasion,IC+CC,L,BOT,"L2, R2",Positive,Never,7.5,IV,II,N2,T3,IC+CC,46.0,69.3,33,2.1,N,Y,supraglottic,"Capable of only limited selfcare, confined to bed or chair m",LP/chemoRT,32.43333333,1.0
+5031,64.6888888888889,III,Male,White/Caucasion,Radiation alone,R,Tonsil,R2,Positive,Never,0,IV,II,N2,T1,Radiation alone,39.0,66.0,30,2.2,N,Y,glottic,Ambulatory and capable of all selfcare but unable to carry o,PLRT,32.7,1.0
+5032,65.9666666666667,II,Female,White/Caucasion,CC,L,BOT,"L2, L3, L4",Positive,Never,0,IV,II,N2,T3,CC,45.0,70.0,33,2.12121212121212,N,Y,transglottic,Ambulatory and capable of all selfcare but unable to carry o,PLRT,33.36666667,0.0
+5033,51.9888888888889,II,Male,White/Caucasion,Radiation alone,L,BOT,L2,Positive,Formar,13,III,I,N1,T1,Radiation alone,41.0,66.0,30,2.2,N,N,supraglottic,Ambulatory and capable of all selfcare but unable to carry o,LP/chemoRT,33.4,0.0
+5034,68.5583333333333,III,Male,White/Caucasion,CC,L,Tonsil,L2,Positive,Never,0,IV,II,N2,T2,CC,45.0,70.0,33,2.12121212121212,N,Y,supraglottic,Restricted in physically strenuous activity but ambulatory a,LP/chemoRT,33.53333333,1.0
+5035,69.1944444444444,III,Male,White/Caucasion,IC+CC,L,Tonsil,"L2, L3",Positive,Never,0,IV,II,N2,T2,IC+CC,44.0,70.0,33,2.12121212121212,N,N,transglottic,Restricted in physically strenuous activity but ambulatory a,PLRT,33.76666667,0.0
+5036,67.91944444444451,III,Male,White/Caucasion,IC+CC,R,BOT,R2,Positive,Never,0,IV,II,N2,T2,IC+CC,42.0,66.0,30,2.2,N,N,glottic,"Fully active, able to carry on all pre-disease performance w",LP/RT alone,33.93333333,1.0
+5037,62.0111111111111,II,Male,White/Caucasion,CC,R,Tonsil,R2,Positive,Never,0,IV,II,N2,T2,CC,37.0,66.0,30,2.2,N,Y,supraglottic,Restricted in physically strenuous activity but ambulatory a,PLRT,34.53333333,0.0
+5038,61.2638888888889,NaN,Male,White/Caucasion,CC,R,Tonsil,R2,Positive,Formar,5,IV,II,N2,T1,CC,39.0,63.0,30,2.1,N,Y,glottic,Restricted in physically strenuous activity but ambulatory a,PLRT,35.43333333,1.0
+5039,80.1666666666667,II,Male,White/Caucasion,CC,Bilateral,BOT,NaN,Positive,Formar,94,IV,III,N0,T4,CC,48.0,70.0,33,2.12121212121212,N,N,transglottic,Restricted in physically strenuous activity but ambulatory a,PLRT,35.53333333,1.0
+5040,65.1388888888889,II,Male,White/Caucasion,CC,R,Tonsil,"R RPLN, R2",Positive,Never,0,IV,II,N2,T2,CC,37.0,70.0,35,2.0,N,Y,glottic,Restricted in physically strenuous activity but ambulatory a,PLRT,44.83333333,0.0
+5041,52.2555555555556,NaN,Male,White/Caucasion,CC,R,BOT,R2,Negative,Never,0,IV,IV,N2,T2,CC,45.0,70.0,33,2.12121212121212,N,N,transglottic,"Fully active, able to carry on all pre-disease performance w",LP/chemoRT,35.93333333,1.0
+5042,57.2194444444444,III,Male,NOS,Radiation alone,R,Tonsil,R2,Positive,Never,0,III,I,N1,T2,Radiation alone,39.0,69.3,33,2.1,N,Y,transglottic,Restricted in physically strenuous activity but ambulatory a,PLRT,36.16666667,1.0
+5043,67.8416666666667,NaN,Male,White/Caucasion,CC,L,BOT,L2,Positive,Formar,42,IV,II,N2,T1,CC,44.0,70.0,33,2.12121212121212,N,Y,glottic,Restricted in physically strenuous activity but ambulatory a,PLRT,36.33333333,0.0
+5044,59.525,III,Male,White/Caucasion,IC+CC,L,BOT,"R2, R3, R4",Positive,Formar,3,IV,II,N2,T2,IC+CC,44.0,70.0,35,2.0,N,Y,transglottic,Restricted in physically strenuous activity but ambulatory a,LP/RT alone,36.36666667,0.0
+5045,52.0888888888889,II,Male,White/Caucasion,CC,R,BOT,"R2, R3, R4",Positive,Never,0,IV,II,N2,T2,CC,44.0,69.96,33,2.12,N,N,supraglottic,"Fully active, able to carry on all pre-disease performance w",PLRT,37.9,0.0
+5047,55.0722222222222,III,Male,White/Caucasion,Radiation alone,L,Tonsil,"L3, R2",Positive,Never,0,IV,II,N2,T1,Radiation alone,39.0,60.0,30,2.0,N,N,supraglottic,Restricted in physically strenuous activity but ambulatory a,PLRT,38.4,0.0
+5048,53.4111111111111,III,Male,White/Caucasion,IC+Radiation alone,R,BOT,"R2, R3",Positive,Formar,20,IV,II,N2,T2,IC+Radiation alone,38.0,66.0,30,2.2,N,N,supraglottic,"Fully active, able to carry on all pre-disease performance w",LP/chemoRT,38.4,0.0
+5049,50.7361111111111,III,Male,White/Caucasion,CC,L,Tonsil,"L2,L3",Positive,Formar,NaN,IV,II,N2,T3,CC,37.0,70.0,35,2.0,Y,Y,glottic,Restricted in physically strenuous activity but ambulatory a,PLRT,38.6,1.0
+5050,42.775,III,Male,White/Caucasion,CC,R,NOS,"R1B, R2",Positive,Never,0,IV,II,N2,T1,CC,50.0,69.96,33,2.12,N,Y,supraglottic,Restricted in physically strenuous activity but ambulatory a,PLRT,39.3,0.0
+5051,54.502777777777794,III,Female,White/Caucasion,IC+Radiation alone,R,BOT,"L2, R2",Positive,Never,0,IV,II,N2,T2,IC+Radiation alone,45.0,70.0,33,2.12121212121212,N,Y,supraglottic,Restricted in physically strenuous activity but ambulatory a,LP/chemoRT,44.53333333,0.0
+5052,54.3083333333333,III,Male,White/Caucasion,IC+CC,R,Tonsil,"R2, L2",Positive,Never,0,IV,II,N2,T2,IC+CC,39.0,66.0,30,2.2,N,N,transglottic,Restricted in physically strenuous activity but ambulatory a,LP/chemoRT,39.53333333,1.0
+5053,60.05,II,Male,White/Caucasion,CC,R,BOT,R2,Positive,Never,0,IV,II,N2,T2,CC,46.0,70.0,33,2.12121212121212,N,N,supraglottic,Ambulatory and capable of all selfcare but unable to carry o,PLRT,40.06666667,0.0
+5054,54.55,II,Male,White/Caucasion,CC,R,Tonsil,R2/3,Positive,Never,0,IV,II,N2,T1,CC,39.0,70.0,33,2.12121212121212,N,Y,supraglottic,Restricted in physically strenuous activity but ambulatory a,LP/chemoRT,67.16666667,1.0
+5055,63.647222222222204,NaN,Male,White/Caucasion,IC+CC,R,BOT,"R2, R3",Positive,Formar,5,IV,II,N2,T1,IC+CC,44.0,70.0,33,2.12121212121212,N,N,glottic,"Fully active, able to carry on all pre-disease performance w",LP/chemoRT,41.73333333,1.0
+5056,57.352777777777796,II,Female,White/Caucasion,CC,R,Tonsil,R RPLN,Positive,Current,40,IV,II,N2,T2,CC,44.0,70.0,33,2.12121212121212,N,N,glottic,Restricted in physically strenuous activity but ambulatory a,LP/chemoRT,82.36666667,1.0
+5057,42.1555555555556,III,Male,White/Caucasion,CC,L,Tonsil,L2,Positive,Never,0,IV,II,N2,T2,CC,38.0,66.0,30,2.2,N,Y,supraglottic,Restricted in physically strenuous activity but ambulatory a,PLRT,43.4,0.0
+5058,66.9916666666667,III,Male,White/Caucasion,CC,L,Tonsil,"L RPLN, L2, L2/3 R1B",Positive,Current,20,IV,II,N2,T2,CC,38.0,70.0,35,2.0,N,Y,transglottic,Restricted in physically strenuous activity but ambulatory a,PLRT,43.43333333,0.0
+5059,65.3472222222222,III,Male,White/Caucasion,Radiation alone,L,Tonsil,"R1B, R2",Positive,Never,0,IV,II,N2,T2,Radiation alone,38.0,66.0,30,2.2,N,N,supraglottic,Ambulatory and capable of all selfcare but unable to carry o,LP/chemoRT,43.76666667,0.0
+5060,69.8083333333333,III,Male,White/Caucasion,Radiation alone,L,Tonsil,L2/3,Positive,Never,0,III,I,N1,T2,Radiation alone,44.0,69.96,33,2.12,N,N,glottic,"Fully active, able to carry on all pre-disease performance w",PLRT,44.66666667,0.0
+5061,70.7083333333333,III,Female,White/Caucasion,IC+CC,R,Tonsil,"R RPLN, R2, R3, L2",Positive,Never,0,IV,II,N2,T3,IC+CC,44.0,70.0,33,2.12121212121212,"Y (R1a, R1b, R2a, R3)",N,supraglottic,"Fully active, able to carry on all pre-disease performance w",LP/chemoRT,46.93333333,1.0
+5062,85.6388888888889,III,Male,White/Caucasion,CC,L,BOT,L2,Positive,Formar,10,IV,II,N2,T1,CC,46.0,70.0,33,2.12121212121212,N,N,supraglottic,Restricted in physically strenuous activity but ambulatory a,PLRT,47.23333333,1.0
+5063,56.4472222222222,III,Male,White/Caucasion,Radiation alone,R,BOT,R2,Positive,Never,0,IV,II,N2,T2,Radiation alone,39.0,66.0,30,2.2,N,Y,transglottic,"Fully active, able to carry on all pre-disease performance w",LP/chemoRT,48.16666667,1.0
+5064,57.211111111111094,III,Male,White/Caucasion,Radiation alone,R,BOT,R2,Positive,Formar,6,IV,II,N2,T1,Radiation alone,39.0,66.0,33,2.0,N,Y,supraglottic,Ambulatory and capable of all selfcare but unable to carry o,PLRT,48.36666667,1.0
+5065,69.9722222222222,II,Male,White/Caucasion,IC+CC,R,BOT,"R2, R3, L2, L3",Positive,Current,51,IV,II,N2,T3,IC+CC,45.0,70.0,33,2.12121212121212,N,Y,supraglottic,Restricted in physically strenuous activity but ambulatory a,PLRT,49.06666667,0.0
+5066,58.366666666666696,III,Male,White/Caucasion,IC+CC,L,NOS,"L2, R2, R2/3",Positive,Never,0,IV,III,N2,T4,IC+CC,44.0,70.0,33,2.12121212121212,"Y ( L1, L2, L3)",N,supraglottic,Ambulatory and capable of all selfcare but unable to carry o,LP/chemoRT,49.46666667,1.0
+5067,72.0027777777778,NaN,Male,White/Caucasion,IC+CC,R,BOT,R2,Positive,Never,0,IV,III,N2,T4,IC+CC,44.0,70.0,33,2.12121212121212,N,Y,glottic,Restricted in physically strenuous activity but ambulatory a,PLRT,49.63333333,0.0
+5068,64.025,III,Female,White/Caucasion,IC+CC,R,Tonsil,"R RPLN, R2/3/4, R5A, L2, L2/3",Positive,Never,0,IV,III,N3,T3,IC+CC,44.0,70.0,33,2.12121212121212,"Y (R2, R3)",N,glottic,Restricted in physically strenuous activity but ambulatory a,PLRT,50.16666667,1.0
+5069,52.8194444444444,III,Male,White/Caucasion,CC,R,Tonsil,R2,Positive,Never,0,III,II,N1,T3,CC,52.0,70.0,33,2.12121212121212,N,Y,glottic,Restricted in physically strenuous activity but ambulatory a,PLRT,50.56666667,1.0
+5070,43.4444444444444,III,Male,White/Caucasion,IC+Radiation alone,L,BOT,L3/4,Positive,Never,0,IV,II,N2,T1,IC+Radiation alone,39.0,66.0,30,2.2,N,Y,glottic,"Fully active, able to carry on all pre-disease performance w",PLRT,50.63333333,0.0
+5071,44.538888888888906,III,Male,White/Caucasion,Radiation alone,R,BOT,R2,Positive,Never,0,III,I,N1,T1,Radiation alone,38.0,66.0,30,2.2,"Y (R2a, R3)",N,supraglottic,"Fully active, able to carry on all pre-disease performance w",PLRT,50.7,0.0
+5072,42.5138888888889,III,Male,White/Caucasion,CC,R,BOT,R2,Positive,Never,0,IV,II,N2,T1,CC,38.0,66.0,30,2.2,N,Y,supraglottic,"Fully active, able to carry on all pre-disease performance w",PLRT,51.66666667,0.0
+5073,69.33055555555549,III,Male,White/Caucasion,IC+CC,L,BOT,"L2, L3, L4",Positive,Formar,45,IV,III,N2,T4,IC+CC,50.0,66.0,33,2.0,N,Y,supraglottic,Restricted in physically strenuous activity but ambulatory a,PLRT,53.76666667,0.0
+5074,63.8583333333333,III,Male,White/Caucasion,CC,R,NOS,"R2, R3, L2",Positive,Current,96,IV,II,N2,T2,CC,44.0,69.96,33,2.12,N,Y,supraglottic,Restricted in physically strenuous activity but ambulatory a,LP/chemoRT,53.86666667,1.0
+5075,51.525,II,Female,White/Caucasion,IC+CC,R,BOT,"L2/3, R2",Negative,Current,27,IV,IV,N2,T2,IC+CC,44.0,69.96,33,2.12,N,Y,transglottic,"Fully active, able to carry on all pre-disease performance w",PLRT,85.96666667,0.0
+5076,62.2166666666667,III,Male,White/Caucasion,IC+CC,L,BOT,"L2, L3, L4",Positive,Formar,22,IV,II,N2,T2,IC+CC,48.0,70.0,33,2.12121212121212,N,N,supraglottic,"Fully active, able to carry on all pre-disease performance w",PLRT,55.6,1.0
+5077,58.133333333333304,III,Male,White/Caucasion,CC,R,Tonsil,R2,Positive,Never,0,IV,II,N2,T1,CC,39.0,66.0,30,2.2,N,N,supraglottic,Restricted in physically strenuous activity but ambulatory a,PLRT,56.83333333,0.0
+5078,54.6416666666667,III,Male,White/Caucasion,CC,R,BOT,"R2, R3",Negative,Formar,22,IV,IV,N3,T3,CC,38.0,70.0,35,2.0,N,N,transglottic,Restricted in physically strenuous activity but ambulatory a,PLRT,56.9,1.0
+5079,58.230555555555604,II,Female,White/Caucasion,CC,R,NOS,"R RPLN, R2, R5A",Positive,Formar,3,IV,II,N2,T2,CC,51.0,70.0,33,2.12121212121212,N,N,transglottic,Restricted in physically strenuous activity but ambulatory a,LP/chemoRT,57.43333333,0.0
+5080,57.2,II,Male,White/Caucasion,IC+CC,R,BOT,R2/3,Negative,Never,0,IV,IV,N2,T1,IC+CC,44.0,69.96,33,2.12,N,Y,transglottic,"Fully active, able to carry on all pre-disease performance w",PLRT,59.4,0.0
+5081,73.17777777777779,III,Male,White/Caucasion,CC,R,BOT,"R2, R3, L2, L3",Positive,Never,0,IV,II,N2,T3,CC,44.0,70.0,33,2.12121212121212,N,Y,supraglottic,"Fully active, able to carry on all pre-disease performance w",LP/chemoRT,60.73333333,1.0
+5082,53.5472222222222,III,Male,White/Caucasion,Radiation alone,R,Tonsil,R2,Positive,Never,0,III,I,N1,T1,Radiation alone,44.0,66.0,30,2.2,N,N,transglottic,"Fully active, able to carry on all pre-disease performance w",PLRT,61.43333333,0.0
+5083,79.7222222222222,III,Male,White/Caucasion,CC,L,BOT,L2,Positive,Formar,50,IV,III,N2,T4,CC,45.0,70.0,33,2.12121212121212,N,Y,glottic,Restricted in physically strenuous activity but ambulatory a,PLRT,61.56666667,1.0
+5084,71.17777777777779,II,Male,White/Caucasion,IC+CC,L,BOT,"L2, R2",Negative,Current,20,IV,IV,N3,T4,IC+CC,48.0,70.0,35,2.0,N,N,transglottic,Ambulatory and capable of all selfcare but unable to carry o,PLRT,63.36666667,0.0
+5085,55.019444444444396,II,Male,White/Caucasion,CC,R,BOT,"R2/3, R4",Positive,Never,0,IV,II,N2,T2,CC,38.0,70.0,35,2.0,N,N,supraglottic,"Fully active, able to carry on all pre-disease performance w",PLRT,63.96666667,0.0
+5086,73.425,III,Male,White/Caucasion,IC+CC,L,BOT,"L2, L3/4, R2",Positive,Formar,2.5,IV,II,N2,T2,IC+CC,44.0,70.0,33,2.12121212121212,N,N,glottic,Restricted in physically strenuous activity but ambulatory a,LP/chemoRT,71.23333333,0.0
+5087,53.063888888888904,III,Male,White/Caucasion,CC,R,Tonsil,R2,Positive,Formar,2,III,I,N1,T1,CC,39.0,70.0,33,2.12121212121212,N,N,glottic,Ambulatory and capable of all selfcare but unable to carry o,PLRT,66.2,1.0
+5088,70.66944444444451,II,Female,White/Caucasion,Radiation alone,R,BOT,"R2, R3",Positive,Current,>20,IV,II,N2,T1,Radiation alone,44.0,69.96,33,2.12,N,Y,supraglottic,Restricted in physically strenuous activity but ambulatory a,PLRT,66.33333333,1.0
+5089,62.272222222222204,III,Male,White/Caucasion,CC,L,BOT,"L2, L2/3",Negative,Formar,12,IV,IV,N2,T3,CC,44.0,70.0,33,2.12121212121212,N,N,supraglottic,Restricted in physically strenuous activity but ambulatory a,PLRT,68.1,1.0
+5090,68.8888888888889,III,Male,White/Caucasion,IC+CC,L,BOT,"L2, R2",Positive,Formar,6,IV,II,N2,T3,IC+CC,37.0,69.0,33,2.09090909090909,N,Y,supraglottic,Ambulatory and capable of all selfcare but unable to carry o,PLRT,68.5,0.0
+5091,51.188888888888904,III,Female,Asian,CC,L,Tonsil,"L RPLN, L2",Positive,Formar,14,IV,II,N2,T2,CC,39.0,66.0,30,2.2,N,Y,glottic,Restricted in physically strenuous activity but ambulatory a,PLRT,68.86666667,1.0
+5092,48.45,III,Male,White/Caucasion,CC,L,Tonsil,"L RPLN, L2",Positive,Never,0,IV,II,N2,T2,CC,44.0,70.0,33,2.12121212121212,N,N,supraglottic,Restricted in physically strenuous activity but ambulatory a,PLRT,69.1,0.0
+5093,62.325,II,Male,White/Caucasion,CC,R,BOT,"L2, L3, L5A",Positive,Never,0,IV,II,N2,T2,CC,43.0,70.0,33,2.12121212121212,N,Y,supraglottic,"Fully active, able to carry on all pre-disease performance w",PLRT,70.03333333,0.0
+5094,56.5333333333333,III,Male,White/Caucasion,CC,L,GPS,L2,Positive,Never,0,IV,II,N2,T2,CC,44.0,70.0,33,2.12121212121212,"Y (L1a, L1b, L2, L3, L4)",Y,transglottic,Restricted in physically strenuous activity but ambulatory a,PLRT,84.0,0.0
+5095,45.663888888888906,III,Male,White/Caucasion,IC+Radiation alone,L,BOT,"L3, L4",Positive,Formar,12,IV,II,N2,T3,IC+Radiation alone,44.0,69.96,33,2.12,N,N,supraglottic,"Fully active, able to carry on all pre-disease performance w",LP/chemoRT,70.53333333,1.0
+5096,63.9055555555556,III,Male,NOS,CC,L,Tonsil,L2,Positive,Formar,8,IV,II,N2,T1,CC,44.0,70.0,33,2.12121212121212,N,N,supraglottic,"Fully active, able to carry on all pre-disease performance w",PLRT,70.73333333,1.0
+5097,70.1666666666667,NaN,Female,White/Caucasion,IC+Radiation alone,R,BOT,"R1B, R2, R3, R4",Positive,Never,0,IV,II,N2,T1,IC+Radiation alone,39.0,66.0,33,2.0,N,Y,glottic,Restricted in physically strenuous activity but ambulatory a,LP/chemoRT,70.96666667,1.0
+5098,52.9694444444444,II,Male,White/Caucasion,CC,L,BOT,L2,Positive,Formar,35,IV,III,N1,T4,CC,774.0,70.0,33,2.12121212121212,N,N,transglottic,Ambulatory and capable of all selfcare but unable to carry o,PLRT,71.43333333,1.0
+5099,51.480555555555604,II,Male,White/Caucasion,IC+CC,R,Tonsil,R2,Negative,Current,35,IV,IV,N2,T4,IC+CC,36.0,69.96,33,2.12,N,Y,supraglottic,"Fully active, able to carry on all pre-disease performance w",LP/chemoRT,71.6,1.0
+51,64.9527777777778,III,Male,White/Caucasion,CC,L,BOT,"L2, L3, L4",Positive,Never,0,IV,II,N2,T3,CC,44.0,70.0,33,2.12121212121212,N,Y,glottic,Restricted in physically strenuous activity but ambulatory a,PLRT,72.83333333,1.0
+5100,61.275,III,Male,White/Caucasion,CC,R,BOT,R2,Positive,Formar,19,IV,II,N2,T2,CC,44.0,70.0,33,2.12121212121212,N,Y,supraglottic,Restricted in physically strenuous activity but ambulatory a,PLRT,74.16666667,0.0
+5101,54.6305555555556,III,Male,White/Caucasion,CC,L,BOT,NaN,Positive,Formar,16,IV,II,N2,T1,CC,41.0,66.0,33,2.0,N,Y,transglottic,Restricted in physically strenuous activity but ambulatory a,PLRT,74.36666667,1.0
+5102,47.311111111111096,III,Male,White/Caucasion,IC+CC,L,Soft palate,"L RPLN, L2, L2/3, L4",Positive,Current,NaN,IV,III,N2,T4,IC+CC,43.0,70.0,33,2.12121212121212,N,Y,supraglottic,Restricted in physically strenuous activity but ambulatory a,LP/RT alone,75.06666667,0.0
+5103,50.9277777777778,III,Male,White/Caucasion,IC+CC,Bilateral,BOT,"R2, R3, R4, L2",Positive,Never,0,IV,III,N2,T4,IC+CC,44.0,70.0,33,2.12121212121212,N,N,supraglottic,Restricted in physically strenuous activity but ambulatory a,PLRT,76.3,1.0
+5104,61.1666666666667,III,Male,Hispanic/Latino,IC+CC,R,Tonsil,"R2, R2/3, L2",Positive,Formar,11,IV,III,N2,T4,IC+CC,41.0,70.0,33,2.12121212121212,N,Y,supraglottic,Restricted in physically strenuous activity but ambulatory a,PLRT,76.83333333,0.0
+5105,61.1805555555556,II,Male,NOS,Radiation alone,L,Tonsil,L2,Negative,Formar,44,III,III,N1,T2,Radiation alone,41.0,66.0,30,2.2,"Y ( R2a,R2b,R3,R4)",N,supraglottic,Ambulatory and capable of all selfcare but unable to carry o,PLRT,77.03333333,1.0
+5106,80.41944444444451,III,Male,White/Caucasion,Radiation alone,L,BOT,NaN,Positive,Formar,40,II,I,N0,T2,Radiation alone,41.0,70.0,33,2.12121212121212,N,N,supraglottic,"Fully active, able to carry on all pre-disease performance w",PLRT,78.5,0.0
+5107,57.6388888888889,III,Male,Hispanic/Latino,IC+CC,R,Tonsil,"R2, R3, R4",Positive,Current,20,IV,III,N3,T2,IC+CC,44.0,70.0,33,2.12121212121212,N,N,supraglottic,Restricted in physically strenuous activity but ambulatory a,PLRT,79.4,0.0
+5108,47.925,III,Male,White/Caucasion,CC,R,BOT,"R2, L2",Positive,Never,0,IV,II,N2,T2,CC,44.0,70.0,33,2.12121212121212,N,N,supraglottic,Restricted in physically strenuous activity but ambulatory a,PLRT,81.96666667,1.0
+5109,49.4861111111111,II,Male,NOS,IC+CC,R,Tonsil,"R1A, R1B, R2, R3, R4, L1B, L2, L3, L4, R RPLN",Positive,Formar,18,IV,II,N2,T3,IC+CC,45.0,69.96,33,2.12,"Y ( R1, R2, R3, R4, R5)",N,transglottic,Restricted in physically strenuous activity but ambulatory a,LP/chemoRT,84.43333333,1.0
+5110,57.8194444444444,III,Male,White/Caucasion,CC,L,BOT,NaN,Positive,Current,20,IV,III,N0,T4,CC,34.0,70.0,33,2.12121212121212,N,N,glottic,Restricted in physically strenuous activity but ambulatory a,PLRT,84.86666667,1.0
+5111,79.0833333333333,III,Male,White/Caucasion,CC,L,BOT,"L2, L3",Positive,Never,0,IV,II,N2,T2,CC,44.0,63.0,33,1.90909090909091,N,N,supraglottic,"Fully active, able to carry on all pre-disease performance w",LP/RT alone,85.6,0.0
+5112,52.15,III,Male,White/Caucasion,IC+CC,R,BOT,"R2, R3, R4, L2, L3, L4",Positive,Formar,NaN,IV,II,N2,T2,IC+CC,44.0,70.0,33,2.12121212121212,N,Y,transglottic,Restricted in physically strenuous activity but ambulatory a,PLRT,86.93333333,1.0
+5113,60.6416666666667,I,Male,White/Caucasion,IC+CC,Bilateral,Soft palate,"L RPLN, L2, R2, R4",Negative,Never,0,IV,IV,N2,T4,IC+CC,39.0,70.0,35,2.0,N,Y,glottic,"Fully active, able to carry on all pre-disease performance w",PLRT,86.93333333,0.0
+5114,72.31944444444441,NaN,Male,White/Caucasion,Radiation alone,R,NOS,L1B,Positive,Current,NaN,IV,II,N2,T1,Radiation alone,45.0,70.0,33,2.12121212121212,N,N,glottic,"Fully active, able to carry on all pre-disease performance w",LP/chemoRT,87.33333333,0.0
+5115,59.730555555555604,III,Male,NOS,Radiation alone,R,Tonsil,R2,Positive,Never,0,IV,II,N2,T1,Radiation alone,39.0,66.0,30,2.2,N,Y,supraglottic,Restricted in physically strenuous activity but ambulatory a,PLRT,88.43333333,0.0
+5116,58.1916666666667,III,Male,White/Caucasion,IC+CC,R,NOS,"R2, L2,R RPLN",Positive,Never,0,IV,II,N2,T3,IC+CC,20.0,38.0,19,2.0,N,Y,supraglottic,Restricted in physically strenuous activity but ambulatory a,PLRT,88.63333333,0.0
+5117,48.2138888888889,III,Male,Hispanic/Latino,IC+CC,R,BOT,"R1B, R2, R3/4, L1B, L2, L2/3/4",Positive,Formar,88,IV,III,N2,T4,IC+CC,44.0,69.96,33,2.12,N,N,supraglottic,"Fully active, able to carry on all pre-disease performance w",PLRT,90.4,1.0
+5118,60.5166666666667,II,Male,White/Caucasion,CC,R,BOT,"R1B, R2",Negative,Current,66,IV,IV,N0,T4,CC,43.0,70.0,33,2.12121212121212,"Y (R1,R2,R3)",N,transglottic,Restricted in physically strenuous activity but ambulatory a,PLRT,92.93333333,1.0
+5119,75.99444444444441,III,Male,White/Caucasion,CC,R,BOT,R2,Positive,Formar,5,III,II,N1,T3,CC,NaN,69.96,33,2.12,N,N,supraglottic,"Fully active, able to carry on all pre-disease performance w",PLRT,96.76666667,0.0
+5120,61.4694444444444,III,Male,White/Caucasion,Radiation alone,R,Tonsil,R3,Positive,Never,0,III,I,N1,T1,Radiation alone,NaN,66.0,30,2.2,N,Y,supraglottic,"Fully active, able to carry on all pre-disease performance w",PLRT,98.26666667,0.0
+52,46.269444444444396,IV,Male,White/Caucasion,IC+CC,R,BOT,"R2, R3",Positive,Formar,NaN,IV,II,N2,T2,IC+CC,44.0,70.0,33,2.12121212121212,"Y, right (8L2-3) (All negative)",Y,supraglottic,"Fully active, able to carry on all pre-disease performance w",PLRT,98.66666667,1.0
+53,60.336111111111094,III,Male,White/Caucasion,CC,L,Tonsil,L2,Positive,Never,0,IV,II,N2,T1,CC,41.0,66.0,30,2.2,"Y, left (8L2 - 1 w/ metastatic squamous carcinoma, 7L3 - all negative)",Y,supraglottic,Restricted in physically strenuous activity but ambulatory a,PLRT,101.0666667,0.0
+54,39.6305555555556,III,Male,White/Caucasion,CC,R,NOS,R2,Positive,Never,0,III,I,N1,T2,CC,44.0,70.0,33,2.12121212121212,N,Y,supraglottic,Restricted in physically strenuous activity but ambulatory a,PLRT,108.06666670000001,0.0
+55,49.9638888888889,II,Male,White/Caucasion,CC,R,BOT,"R2, L2",Positive,Current,35,IV,II,N2,T2,CC,49.0,70.0,33,2.12121212121212,N,Y,transglottic,"Fully active, able to carry on all pre-disease performance w",PLRT,101.6333333,0.0
+56,58.59722222222221,III,Male,White/Caucasion,CC,R,GPS,"R2, R3",Positive,Never,0,III,I,N1,T1,CC,41.0,66.0,30,2.2,N,Y,supraglottic,Restricted in physically strenuous activity but ambulatory a,PLRT,102.83333329999999,1.0
+57,56.3916666666667,II,Male,White/Caucasion,IC+CC,L,Tonsil,L2,Negative,Current,50,IV,IV,N2,T4,IC+CC,44.0,72.0,40,1.8,"Y, bilateral (23L2-4) (All negative)",Y,supraglottic,"Fully active, able to carry on all pre-disease performance w",PLRT,124.66666670000001,0.0
+58,57.8583333333333,II,Male,White/Caucasion,CC,L,NOS,"L2, L3",Positive,Current,44,IV,II,N2,T2,CC,49.0,70.0,33,2.12121212121212,N,Y,transglottic,Restricted in physically strenuous activity but ambulatory a,PLRT,105.7,1.0
+59,62.836111111111094,III,Male,White/Caucasion,Radiation alone,R,Tonsil,"R2, R3, R RPLN",Positive,Formar,7,IV,II,N2,T1,Radiation alone,42.0,66.0,30,2.2,Y,Y,supraglottic,Restricted in physically strenuous activity but ambulatory a,LP/chemoRT,106.3,0.0
+6,77.1166666666667,NaN,Male,White/Caucasion,Radiation alone,R,Tonsil,"R2, R3",Positive,Never,0,IV,II,N2,T1,Radiation alone,42.0,70.0,30,2.3333333333333304,"Y/RIGHT SELECTIVE NODE DISSECTION LEVEL II,III",N,transglottic,"Fully active, able to carry on all pre-disease performance w",PLRT,117.96666670000002,0.0
+60,58.1388888888889,III,Male,White/Caucasion,IC+CC,L,BOT,L2,Positive,Current,NaN,IV,II,N2,T1,IC+CC,41.0,66.0,30,2.2,N,Y,supraglottic,Restricted in physically strenuous activity but ambulatory a,PLRT,118.0,0.0
+61,55.0111111111111,III,Female,White/Caucasion,Radiation alone,R,BOT,R2,Positive,Never,0,IV,II,N2,T2,Radiation alone,44.0,70.0,33,2.12121212121212,Y,Y,supraglottic,"Fully active, able to carry on all pre-disease performance w",PLRT,114.66666670000001,0.0
+62,49.7638888888889,III,Male,White/Caucasion,IC+CC,L,Tonsil,L2,Positive,Never,0,IV,II,N2,T2,IC+CC,45.0,70.0,33,2.12121212121212,"Y, left (7L2, 7L3) (All negative except level 2 soft tissue)",Y,supraglottic,"Fully active, able to carry on all pre-disease performance w",PLRT,115.66666670000001,1.0
+63,51.375,III,Male,White/Caucasion,IC+CC,L,BOT,L2,Positive,Never,0,IV,II,N2,T3,IC+CC,46.0,70.0,35,2.0,N,Y,transglottic,Ambulatory and capable of all selfcare but unable to carry o,PLRT,116.2,1.0
+64,52.275,II,Male,White/Caucasion,IC+CC,R,GPS,"R2, R3",Positive,Formar,NaN,IV,II,N2,T1,IC+CC,39.0,70.0,33,2.12121212121212,N,Y,transglottic,"Fully active, able to carry on all pre-disease performance w",PLRT,118.33333329999999,0.0
+65,65.51111111111109,II,Male,White/Caucasion,Radiation alone,R,Tonsil,R2,Positive,Formar,15,III,I,N1,T2,Radiation alone,37.0,66.0,30,2.2,N,Y,transglottic,"Fully active, able to carry on all pre-disease performance w",PLRT,125.33333329999999,0.0
+66,59.8305555555556,NaN,Male,White/Caucasion,CC,R,BOT,"R2, R3, R4",Positive,Never,0,IV,III,N2,T4,CC,41.0,70.0,35,2.0,Y,N,subglottic,Restricted in physically strenuous activity but ambulatory a,PLRT,144.3,0.0
+67,59.525,II,Male,White/Caucasion,IC+Radiation alone,L,Tonsil,"L1B, L2",Positive,Never,0,IV,II,N2,T1,IC+Radiation alone,38.0,66.0,30,2.2,N,Y,supraglottic,"Fully active, able to carry on all pre-disease performance w",PLRT,130.7666667,1.0
+68,54.6416666666667,III,Female,White/Caucasion,CC,R,Tonsil,R2,Positive,Never,0,III,I,N1,T1,CC,37.0,60.0,30,2.0,N,Y,transglottic,"Fully active, able to carry on all pre-disease performance w",PLRT,136.1333333,1.0
+69,56.3916666666667,NaN,Male,White/Caucasion,IC+CC,L,BOT,"L2, R2, R3",Positive,Formar,5,IV,II,N2,T2,IC+CC,44.0,70.0,33,2.12121212121212,"Y, left (1L2, 6L3) (All negative except 1 L3)",Y,supraglottic,"Fully active, able to carry on all pre-disease performance w",PLRT,138.0333333,0.0
+7,65.3694444444444,III,Male,White/Caucasion,CC,Bilateral,BOT,"R2, L3",Positive,Current,60,IV,III,N2,T4,CC,44.0,69.96,33,2.12,N,N,supraglottic,"Fully active, able to carry on all pre-disease performance w",PLRT,140.8,0.0
+70,51.9694444444444,III,Male,White/Caucasion,CC,L,Tonsil,L2,Positive,Current,45,IV,II,N2,T3,CC,53.0,70.0,33,2.12121212121212,N,Y,supraglottic,Restricted in physically strenuous activity but ambulatory a,PLRT,142.7333333,1.0
+71,58.230555555555604,III,Male,White/Caucasion,IC+CC,R,BOT,"R1B, R2, R3, R4, L2",Positive,Never,0,IV,III,N2,T4,IC+CC,44.0,70.0,33,2.12121212121212,"Y, right (10L2), left (11L2, 10L3) (All negative)",Y,supraglottic,"Fully active, able to carry on all pre-disease performance w",PLRT,143.8,1.0
+72,64.1305555555556,II,Male,White/Caucasion,IC+CC,R,Tonsil,"R2, R3, R RPLN",Positive,Formar,78,IV,III,N2,T4,IC+CC,44.0,67.0,33,2.03030303030303,N,Y,supraglottic,Restricted in physically strenuous activity but ambulatory a,LP/chemoRT,150.93333330000002,0.0
+73,63.9277777777778,NaN,Male,White/Caucasion,Radiation alone,L,BOT,L2,Positive,Formar,15,III,I,N1,T1,Radiation alone,41.0,66.0,30,2.2,N,Y,supraglottic,Restricted in physically strenuous activity but ambulatory a,PLRT,152.1,1.0
+74,68.4583333333333,III,Male,White/Caucasion,IC+Radiation alone,R,GPS,R4,Negative,Formar,30,IV,IV,N2,T2,IC+Radiation alone,39.0,66.0,30,2.2,"Y/RIGHT LEVEL IV,1,IIB,1,IV,5,ALL NEGATIVE/LEVEL IIA,1,III,1,POSITIVE",Y,supraglottic,"Fully active, able to carry on all pre-disease performance w",PLRT,155.2333333,1.0
+75,55.9111111111111,III,Male,White/Caucasion,CC,R,BOT,"R2, R3, L2",Positive,Formar,15,IV,II,N2,T2,CC,39.0,66.0,30,2.2,N,Y,supraglottic,Restricted in physically strenuous activity but ambulatory a,PLRT,157.7,0.0
+76,49.5916666666667,II,Male,White/Caucasion,CC,L,Tonsil,L2,Positive,Current,35,IV,II,N2,T2,CC,39.0,66.0,30,2.2,N,Y,supraglottic,"Fully active, able to carry on all pre-disease performance w",PLRT,158.8666667,1.0
+77,50.2833333333333,II,Male,White/Caucasion,IC+CC,R,BOT,R2,Positive,Formar,10,IV,II,N2,T2,IC+CC,-44.0,70.0,33,2.12121212121212,N,Y,transglottic,Ambulatory and capable of all selfcare but unable to carry o,PLRT,167.3666667,0.0
+78,63.1805555555556,II,Male,White/Caucasion,CC,L,Soft palate,"L2, L3, R2",Positive,Formar,10,IV,II,N2,T3,CC,44.0,70.0,33,2.12121212121212,N,Y,supraglottic,Restricted in physically strenuous activity but ambulatory a,LP/RT alone,168.8666667,0.0
+79,59.84722222222221,II,Female,African American/Black,IC+CC,R,BOT,"R2, R3, R4",Negative,Current,25,IV,IV,N2,T2,IC+CC,49.0,63.0,35,1.8,N,Y,glottic,"Fully active, able to carry on all pre-disease performance w",PLRT,171.3666667,1.0
+8,70.8888888888889,I,Female,White/Caucasion,Radiation alone,L,Tonsil,L2,Negative,Formar,50,IV,IV,N2,T1,Radiation alone,43.0,66.0,30,2.2,"Y (L1A, L1B, 6xL2. 6xL3, 11xL4) (ALL NEG except for 1xL2)",Y,supraglottic,"Fully active, able to carry on all pre-disease performance w",LP/chemoRT,176.1,0.0
+80,75.2722222222222,III,Female,White/Caucasion,CC,L,BOT,"L2, L3",Positive,Formar,6,IV,II,N2,T3,CC,44.0,70.0,33,2.12121212121212,N,Y,transglottic,Restricted in physically strenuous activity but ambulatory a,PLRT,185.7333333,0.0
+81,55.3083333333333,III,Male,White/Caucasion,CC,L,Tonsil,L2,Positive,Formar,22,IV,II,N2,T2,CC,39.0,72.0,33,2.18181818181818,N,Y,transglottic,Restricted in physically strenuous activity but ambulatory a,PLRT,193.2,0.0
+82,43.1944444444444,II,Male,White/Caucasion,Radiation alone,L,BOT,L2,Positive,Current,0,IV,II,N2,T1,Radiation alone,41.0,66.0,30,2.2,N,Y,transglottic,"Fully active, able to carry on all pre-disease performance w",PLRT,252.5,0.0
+83,69.5611111111111,II,Male,African American/Black,CC,R,BOT,R2,Positive,Current,14,IV,II,N2,T3,CC,49.0,70.0,33,2.12121212121212,N,Y,supraglottic,"Fully active, able to carry on all pre-disease performance w",PLRT,232.5,1.0
+84,58.5166666666667,III,Male,White/Caucasion,IC+CC,L,GPS,"L1A, L1B, L2, L3, L4, R2, R3, R4",Negative,Never,0,IV,IV,N2,T3,IC+CC,44.0,70.0,33,2.12121212121212,N,Y,transglottic,Restricted in physically strenuous activity but ambulatory a,PLRT,239.16666669999998,1.0
+85,54.836111111111094,II,Male,White/Caucasion,CC,L,BOT,L2,Positive,Formar,13,IV,II,N2,T1,CC,43.0,66.0,30,2.2,N,Y,supraglottic,"Fully active, able to carry on all pre-disease performance w",PLRT,241.9666667,0.0
+86,52.2194444444444,II,Female,White/Caucasion,IC+CC,L,Tonsil,"L2, L3, R2",Positive,Never,0,IV,II,N2,T2,IC+CC,41.0,66.0,30,2.2,"Y, left (5L2, 10L3) (All negative)",Y,glottic,Restricted in physically strenuous activity but ambulatory a,PLRT,279.1,0.0
+87,53.9,NaN,Male,White/Caucasion,CC,L,Tonsil,"L2, L5A",Positive,Current,38,IV,II,N2,T2,CC,44.0,70.0,33,2.12121212121212,Y,Y,glottic,"Fully active, able to carry on all pre-disease performance w",PLRT,258.8333333,0.0
+88,48.6388888888889,II,Male,White/Caucasion,IC+Radiation alone,L,Tonsil,L3,Positive,Never,0,IV,II,N2,T2,IC+Radiation alone,41.0,66.0,30,2.2,"Y, left (1 external jugular, 13L2, 8L3, 5L4) (All negative)",Y,transglottic,"Fully active, able to carry on all pre-disease performance w",PLRT,264.9,1.0
+89,69.6305555555556,II,Male,White/Caucasion,CC,L,GPS,L2,Positive,Never,0,III,I,N1,T1,CC,39.0,66.0,30,2.2,N,Y,glottic,"Fully active, able to carry on all pre-disease performance w",PLRT,292.96666669999996,0.0
+9,50.163888888888906,II,Male,White/Caucasion,IC+CC,R,BOT,R2,Positive,Never,0,IV,III,N3,T3,IC+CC,43.0,72.0,40,1.8,N,Y,NaN,NaN,NaN,NaN,NaN
+90,68.25,III,Male,White/Caucasion,IC+CC,R,BOT,"R2, R5B, L2, L3",Positive,Never,0,IV,III,N3,T2,IC+CC,44.0,70.0,33,2.12121212121212,"Y, right (2L2, 3L3, 6L4), left (2L2, 6L3, 1L4) (All negative)",N,NaN,NaN,NaN,NaN,NaN
+91,68.725,III,Male,Asian,CC,R,Tonsil,R2,Positive,Formar,25,IV,II,N2,T2,CC,41.0,72.0,40,1.8,N,Y,NaN,NaN,NaN,NaN,NaN
+92,62.3305555555556,III,Male,White/Caucasion,CC,L,BOT,L2,Positive,Current,30,IV,II,N2,T2,CC,44.0,70.0,33,2.12121212121212,Y,Y,NaN,NaN,NaN,NaN,NaN
+93,42.5,II,Male,White/Caucasion,Radiation alone,R,Tonsil,R2,Positive,Current,2,IV,II,N2,T1,Radiation alone,43.0,66.0,30,2.2,Y,N,NaN,NaN,NaN,NaN,NaN
+94,53.938888888888904,III,Male,White/Caucasion,CC,L,BOT,L2,Positive,Current,37,IV,III,N2,T4,CC,44.0,70.0,33,2.12121212121212,N,Y,NaN,NaN,NaN,NaN,NaN
+95,53.2833333333333,II,Male,White/Caucasion,IC+CC,R,BOT,"R2, R3, R4",Positive,Formar,1,IV,III,N3,T1,IC+CC,45.0,70.0,33,2.12121212121212,right neck disection level VB,Y,NaN,NaN,NaN,NaN,NaN
+96,58.475,II,Male,White/Caucasion,IC+CC,L,BOT,"L2, R2",Positive,Formar,NaN,IV,III,N2,T4,IC+CC,44.0,70.0,33,2.12121212121212,"Y, left (9L2, 11L3, 3L4) (All negative)",Y,NaN,NaN,NaN,NaN,NaN
+97,58.188888888888904,II,Male,White/Caucasion,CC,L,BOT,L2,Positive,Formar,25,III,I,N1,T1,CC,42.0,66.0,30,2.2,N,Y,NaN,NaN,NaN,NaN,NaN
+98,65.26111111111109,III,Male,White/Caucasion,CC,L,BOT,"L2, L3",Positive,Formar,2,IV,II,N2,T2,CC,39.0,72.0,40,1.8,Y,N,NaN,NaN,NaN,NaN,NaN
+99,71.0388888888889,III,Male,White/Caucasion,CC,R,BOT,"R2, R3",Positive,Never,0,IV,II,N2,T2,CC,43.0,70.0,35,2.0,"Y, right (6L2, 3L3, 11L4, 3L5) (All negative)",N,NaN,NaN,NaN,NaN,NaN
