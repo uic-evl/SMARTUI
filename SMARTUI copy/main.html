@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script type="text/javascript" src="src/js/model/patientModel.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.10/lodash.core.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js"></script>
+    <script type="text/javascript" src="lib/d3.nomogram.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <script src = "https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://d3js.org/d3-queue.v3.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:700|Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/phoneLayout.css">
+    <link rel="stylesheet" href="src/css/tabletLayout.css">
+    <link rel="stylesheet" href="src/css/laptopLayout.css">
+    <link rel="stylesheet" href="src/css/controls.css">
+
+    <script type="text/javascript" src="src/js/view/cohortView.js"></script>
+    <script type="text/javascript" src="src/js/view/kiviatView.js"></script>
+    <script type="text/javascript" src="lib/d3-tip.js"></script>
+    <script src="src/js/view/KaplanMeierView.js" charset="utf-8"></script>
+    <script type="text/javascript" src="src/js/controller/kaplanMeierOptionsController.js"></script>
+    <script type="text/javascript" src="src/js/controller/nomogramSelector.js"></script>
+    <script type="text/javascript" src="src/js/controller/sliderController.js"></script>
+    <script type="text/javascript" src="src/js/controller/nomogramOptionsController.js"></script>
+    <script type="text/javascript" src="src/js/model/applicationStateModel.js"></script>
+    <script type="text/javascript" src="src/js/model/kaplanMeierModel.js"></script>
+    <script type="text/javascript" src="src/js/controller/inputFillController.js"></script>
+    <script type="text/javascript" src="src/js/view/nomogramView.js"></script>
+    <script type="text/javascript" src="src/js/controller/nomogramSettingsController.js"></script>
+    <script type="text/javascript" src="src/main.js"></script>
+
+    <!-- <script type="text/javascript" src="src/js/controller/inputFillController.js"></script>
+    <script type="text/javascript" src="src/js/controller/validateFormController.js"></script> -->
+
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <div class="title">
+        <h1>Prediction</h1>
+      </div>
+      <div class="nomogramSelect row">
+        <div class="col-md-3" id="nomogramSelector">
+          <select id="nomogramType">
+            <option value="Default">Default</option>
+            <option value="Aspiration">Aspiration</option>
+            <option value="Dysphasia">Dysphasia</option>
+          </select>
+        </div>
+        <div id="demoNomogramHeader" class="col-md-9">
+              <h5>Nomogram</h5>
+        </div>
+      </div>
+      <div class="Nomogram row" id="Hello">
+        <div class="side col-md-3">
+          <div class="row">
+            <div class="col-sm-12" id="settingsButton">
+              <button type="button btn" name="button" onclick="toggleDemoOptions()"><i class="fa fa-wrench fa-xs" aria-hidden="true"></i></button>
+            </div>
+              <div id="nomogramOptions" class="col-lg-9">
+              </div>
+              <div class="col-sm-3" id="axisSlider">
+
+              </div>
+          </div>
+
+        </div>
+        <div id="demoNomogram" class="col-md-9">
+
+        </div>
+      </div>
+
+      <div id="kaplanMeierSelector" class="row">
+        <div class="col-md-6">
+          <h5>Survival Rate</h5>
+          <select id="kaplanOptions">
+
+          </select>
+          <div id="kaplanMeier">
+
+          </div>
+        </div>
+        <div class="col-md-6">
+            <h5>Cohort Analysis</h5>
+            <div id="cohortAnalysis">
+
+            </div>
+        </div>
+      </div>
+
+      <div id="kiviatDiagramSection">
+        <div class="row">
+          <div id="kiviatDiagramSection-subject" class="col-md-8">
+                      subject
+          </div>
+          <div id="kiviatDiagramSection-legend" class="col-md-4">
+              legend
+          </div>
+        </div>
+        <div class="row">
+          <div id="kiviatDiagramSection-neighbors" class="col-md-12">
+            neighbors
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </body>

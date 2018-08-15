@@ -1,0 +1,29 @@
+/* body{
+  background: #ECE9E6;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #000000;
+  font-family: 'Raleway', sans-serif;
+  align: center;
+  margin-left: auto;
+  margin-right: auto;
+} */
+.title{
+  text-align: center;
+}
+#Hello{
+  height: 100px;
+}
+
+#demoNomogram > *{
+  height: 300px;
+}
+
+.side{
+  width: 100%;
+}
+
+
+#axisSlider{
+  margin-top: 0px;
+}
