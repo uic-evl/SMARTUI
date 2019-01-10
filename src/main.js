@@ -220,4 +220,5 @@ function changeNomogram(d)
 {
   console.log($(this).val());
 }
-window.addEventListener("load",App.init,false);
+
+//window.addEventListener("load",App.init,false);

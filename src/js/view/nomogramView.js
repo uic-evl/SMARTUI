@@ -53,17 +53,15 @@ let NomogramView = function(targetID) {
     let selectedID = App.models.applicationState.getSelectedPatientID();
     let pat =[];
     let attributes=getAttributes();
-    for(let i=0;i<644;i++)
-    {
-      pat[i]=patients[i];
 
-    }
-    pat.push(patients[selectedID]);
+    for(let i=0;i<patients.length;i++) { pat[i]=patients[i];}
+
+    if(selectedID){pat.push(patients[selectedID]);}
     d3.select(self.targetID).selectAll("svg").remove();
     self.nomogram = new Nomogram()
                         .target(self.targetID)
                         .setAxes(attributes,"reduce","shrinkAxis")
-                        .data(pat)
+                        .data(patients)
                         .margins({
                           top: 5,
                           left: 40,
